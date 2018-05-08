@@ -3,3 +3,23 @@ $cinza-logo: #848688;
 $verde-claro: #6CD3F0;
 $verde-escuro: #13BBB3;
 $fonte-padrao: 'Open Sans';
+.icone {
+    width: 30px;
+}
+footer {
+    background-color: #cbc8c8;
+    font-family: $fonte-padrao;
+}
+.p_footer {
+    text-align: center;
+}
+.linhaEspacada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+.logo {
+    margin-left: 258px;
+}

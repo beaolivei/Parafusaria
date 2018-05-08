@@ -1,1 +1,23 @@
+.icone {
+  width: 30px;
+}
 
+footer {
+  background-color: #cbc8c8;
+  font-family: "Open Sans";
+}
+
+.p_footer {
+  text-align: center;
+}
+
+.linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.logo {
+  margin-left: 258px;
+}
