@@ -5,78 +5,131 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/style.css" /> 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/style.css" /> 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>    
-    
 </head>
 <body>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: gray;">
-                <div class="container">
-                    <img src="img/logo-white.png" style="height: 80px">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarResponsive">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">QUEM SOMOS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">PRODUTOS</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">PARCEIROS E PROJETOS</a>
-                            </li>
-                        </ul>
+<!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <img src="img/parafusia_black.png" style="height: 80px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PARCEIROS E PROJETOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!-- HEADER -->
+    <header>
+        <div class="card bg-dark text-white header-home">
+            <img class="card-img" src="img/header.png" alt="Card image">
+            <div class="card-img-overlay header-descricao">
+                <h5 class="card-title text-center">PARAFUSARIA</h5>
+                <p class="card-text text-center">Pequenos Reparos e Grandes Obras</p>
+            </div>
+        </div>
+    </header>
+
+<!--DIFERENCIAIS  -->
+    <section class="fundo-verde">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body text-center card-amarelo">
+                            <img class="diferenciais-img img-fluid" src="./img/delivery-truck-redondo.png" alt="imagem de um caminhão de entrega">
+                            <p class="card-text txt-diferenciais">Entregas a qualquer horário, <br> inclusive à noite</p>
+                        </div>
                     </div>
                 </div>
-            </nav>
-        
-            <div class="card bg-dark text-white">
-              <img class="card-img" src="img/header.png" alt="Card image">
-              <div class="card-img-overlay" style="padding-top: 180px">
-                <h5 class="card-title">PARAFUSARIA</h5>
-                <p class="card-text">Pequenos Reparos e Grandes Obras</p>
-              </div>
-            </div>   
-        <footer>
-            <div class="row">
-                <div class="col-4">
-                <img src="./img/logo_white.png" alt="logo da Parafusaria" class="logo">
+
+                <div class="col-lg-4">
+                    <div class="card ">
+                        <div class="card-body text-center card-amarelo">
+                            <img class="diferenciais-img img-fluid" src="./img/smartphone-redondo.png" alt="imagem de um smartphone">
+                            <p class="card-text txt-diferenciais">Pedidos e orçamentos <br> via Whatsapp</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
-                    <p>Rua Leonardo Roitman,26 </p>
-                    <p> Vila Matias- Santos-SP </p>
-                    <p>Telefone: (13) 3394-9476 </p>
+                    
+                <div class="col-lg-4">
+                    <div class="card">
+                        <div class="card-body text-center card-amarelo">
+                            <img class="diferenciais-img img-fluid" src="./img/calendar-redondo.png" alt="imagem de um calendário">
+                            <p class="card-text txt-diferenciais">Entregas segundo o <br> cronograma da obra</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-4">
+            </div> 
+        </div>
+    </section>
+
+<!-- CONTATO -->
+    <section class="container mt-4">
+        <h3 class="text-center">Contato</h3>
+        <div class="row p-4">
+            <div class="col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7292.846076010881!2d-46.328835!3d-23.9454765!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce0370aefb81f1%3A0x6a4ce5636cc6baed!2sR.+Leonardo+Roitman%2C+26+-+Vila+Matias%2C+Santos+-+SP%2C+11015-550!5e0!3m2!1spt-BR!2sbr!4v1525800746880" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <p class="contato-txt">Rua Leonardo Roitman, 26<br>Vila Matias | Santos-SP<br>Telefone: (13) 3394-9476<br>Whatsapp: (13) 99715-4549<br>parafusaria@gmail.com<br>@parafusaria</p>
+                <a href="#" class="btn contato-btn">Cadastre-se</a>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <!-- <footer class="container">
+        <div class="row">
+            <div class="col-4">
+            <img src="./img/logo atualizado PNG.png" style="height: 80px" alt="logo da Parafusaria" id="logo" class="img-fluid">
+            </div>
+            <div class="col-4">
+                <p>Rua Leonardo Roitman,26 </p>
+                <p> Vila Matias- Santos-SP </p>
+                <p>Telefone: (13) 3394-9476 </p>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-6 w-50">
+                        <img src="" alt="icone Facebook" >
+                    </div>
+                    <div class="col-6">
+                        <img src="" alt="icone Instagram">
+                    </div>
                     <div class="row">
-                        <div class="col-6 w-50">
-                            <img src="./img/fb_icon.png" alt="icone Facebook" >
+                        <div class="col-6">
+                        <img src="" alt="icone Whatsapp">
                         </div>
                         <div class="col-6">
-                            <img src="./img/instagram_icon.png" alt="icone Instagram">
-                        </div>
-                        <div class="row">
-                            <div class="col-6">
-                            <img src="./img/whatsapp_icon.png" alt="icone Whatsapp">
-                            </div>
-                            <div class="col-6">
-                                <p>(13) 99715-4549</p>
-                            </div>
+                            <p>(13) 99715-4549</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-    </footer>
-
+        </div>
+    </footer> -->
     <script src="main.js"></script>
 </body>
 </html>
