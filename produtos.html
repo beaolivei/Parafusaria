@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Parafusaria | Nossos produtos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <style>
+
+        .btn {
+            background-color: #CBC8C8;
+            color: #2F2D2D;
+        }
+        .containerAmarelo {
+        background-color: #F9A631;
+        padding: 10px 0;
+        }
+
+        .linhaEspacada {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px 0;
+        }
+
+        .image {
+            opacity: 1;
+            display: block;
+            width: 100%;
+            height: auto;
+            transition: .5s ease;
+            backface-visibility: hidden;
+        }
+
+        .middle {
+            transition: .5s ease;
+            opacity: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+        }
+
+        .containerOverlay:hover .image {
+            opacity: 0.3;
+        }
+
+        .containerOverlay:hover .middle {
+            opacity: 1;
+        }
+
+        .tag {
+            background-color: #F9A631;
+            color: #2F2D2D;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F9A631;">
+        <div class="container">
+            <img src="img/parafusia_black.png" style="height: 80px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PRODUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">PARCEIROS E PROJETOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<section id="nossosProdutos" class="container">
+    <div class="row d-block text-center">
+        <h2>Nossos produtos</h2>
+    </div>
+
+    <div class="row p-2">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4 containerOverlay">
+            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <div class="middle">
+                <div class="tag">Material de Construção</div>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4 containerOverlay">
+            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <div class="middle">
+                <div class="tag">Material Elétrico</div>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row p-2">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4 containerOverlay">
+            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <div class="middle">
+                <div class="tag">Material Hidráulico</div>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4 containerOverlay">
+            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <div class="middle">
+                <div class="tag">Ferramentas</div>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row p-2">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-4 containerOverlay">
+            <img src="http://placehold.it/480x335" alt="" class="img-fluid">
+            <div class="middle">
+                <div class="tag">Ferragens</div>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+        <div class="col-lg-4 containerOverlay">
+            <img src="http://placehold.it/480x335" alt="" class="img-fluid">
+            <div class="middle">
+                <div class="tag">Pequenos Reparos</div>
+            </div>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+</section>
+<section id="fazerPedido" class="container-fluid containerAmarelo d-block text-center">
+    <h2>Faça já seu pedido!</h2>
+    <p>Entre em contato conosco e peça direto pelo WhatsApp</p>
+    <p>Está com dificuldade de encontrar algum material para sua obra? Nós procuramos para você!</p>
+    <div class="linhaEspacada">
+        <h3>(13) 3394-9476</h3>
+    </div>
+    <div class="linhaEspacada">
+        <img src="./img/whatsapp-logo.png" alt="Logo do WhatsApp" class="img-fluid" width="30px">
+        <h3> (13) 99715-4549</h3>
+    </div>
+    <div class="row d-block text-center">
+        <a class="btn" href="https://bit.ly/2I8FcRF" target="_blank">Entre já em contato!</a>
+    </div>
+
+</section>
+    
+</body>
+</html>
