@@ -21,3 +21,57 @@ footer {
 .logo {
   margin-left: 258px;
 }
+
+* {
+  font-family: "Open Sans";
+}
+
+.navbar {
+  background-color: #f9a631;
+}
+
+header {
+  margin-top: 80px;
+}
+
+.header-descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundo-verde {
+  background-color: #13BBB3;
+  padding: 100px;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.card-amarelo {
+  background-color: #f9a631;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.diferenciais-img {
+  width: 120px;
+  padding: 20px 0;
+}
+
+.diferenciais-txt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.contato-txt {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.contato-btn {
+  color: #2F2D2D;
+  background-color: #f9a631;
+}
