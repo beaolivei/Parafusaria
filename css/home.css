@@ -10,6 +10,10 @@ header {
   margin-top: 80px;
 }
 
+.headerImg {
+  height: 60px;
+}
+
 .headerDescricao {
   display: flex;
   flex-direction: column;
@@ -67,7 +71,6 @@ footer {
   font-family: "Open Sans";
   padding: 26px 0;
 }
-
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
@@ -75,7 +78,6 @@ footer #footerMaior .linhaEspacada {
 .pFooter {
   text-align: center;
 }
-
 .pFooter p {
   font-size: 13px;
   line-height: 17px;
@@ -94,11 +96,9 @@ footer #footerMaior .linhaEspacada {
   color: #2F2D2D;
   padding: 15px 0;
 }
-
 #creditosSite #copyRight {
   justify-content: center;
 }
-
 #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
@@ -108,8 +108,8 @@ footer #footerMaior .linhaEspacada {
   .logo {
     margin-bottom: 15px;
   }
+
   #colunaIcones {
     padding-top: 1.5rem;
   }
 }
-/*# sourceMappingURL=style.css.map */

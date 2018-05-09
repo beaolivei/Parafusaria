@@ -23,6 +23,10 @@ header {
     margin-top: 80px;
 }
 
+.headerImg{
+    height: 60px;
+}
+
 .headerDescricao {
     display: flex;
     flex-direction: column;
@@ -36,7 +40,6 @@ header {
 }
 
 .card {
-    // padding: 20px 0;
     border: none;
     background: transparent;
 }
@@ -62,7 +65,18 @@ header {
     line-height: 30px;
 }
 
-.contatoBtn {
+// ESTE TRECHO FUNCIONA PARA QUANDO PASSAR O MOUSE NO BOTÃO A COR DA PALAVRA NÃO MUDAR!
+.contatoSecao {
+    .contatoLinha {
+        .contatoCadastro {
+            .btnParafusaria {
+                color: $cinza-escuro;
+            }
+        }
+    }
+}
+
+.btnParafusaria {
     color: $cinza-escuro;
     background-color: $laranja-logo;
 }
