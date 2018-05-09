@@ -1,0 +1,107 @@
+* {
+  font-family: "Open Sans";
+}
+
+.navbar {
+  background-color: #f9a631;
+}
+
+header {
+  margin-top: 80px;
+}
+
+.headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundoVerde {
+  background-color: #13BBB3;
+  padding: 100px;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.cardAmarelo {
+  background-color: #f9a631;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+
+.diferenciaisTxt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.contatoTxt {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.contatoBtn {
+  color: #2F2D2D;
+  background-color: #f9a631;
+}
+
+.icone {
+  width: 34px;
+  height: 23px;
+  padding: 0 5px;
+}
+
+footer {
+  background-color: #cbc8c8;
+  font-family: "Open Sans";
+  padding: 26px 0;
+}
+footer #footerMaior .linhaEspacada {
+  margin: 0;
+}
+
+.pFooter {
+  text-align: center;
+}
+.pFooter p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#creditosSite {
+  background-color: #ededed;
+  color: #2F2D2D;
+  padding: 15px 0;
+}
+#creditosSite #copyRight {
+  justify-content: center;
+}
+#creditosSite #copyRight p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 990px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  #colunaIcones {
+    padding-top: 1.5rem;
+  }
+}
