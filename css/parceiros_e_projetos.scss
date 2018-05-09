@@ -1,0 +1,35 @@
+html,
+body {
+    overflow-x: hidden;
+
+  #containerDepoimentos {
+    background-image: url(./img/pexels01.jpeg);
+    background-size: cover;
+    height: 57vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+}
+
+
+
+#conteudoCarrosel {
+    background-color: #F9A631;
+}
+
+.btn {
+    background-color: #F9A631;
+    color: #2F2D2D;
+}
+
+.linhaEspacada {
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+
+.containerAmarelo {
+    background-color: #F9A631;
+    padding: 10px 0;
+}
