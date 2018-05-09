@@ -10,10 +10,13 @@ header {
   margin-top: 80px;
 }
 
+<<<<<<< HEAD
 .headerImg {
   height: 60px;
 }
 
+=======
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
 .headerDescricao {
   display: flex;
   flex-direction: column;
@@ -51,11 +54,15 @@ header {
   line-height: 30px;
 }
 
+<<<<<<< HEAD
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
 
 .btnParafusaria {
+=======
+.contatoBtn {
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
   color: #2F2D2D;
   background-color: #f9a631;
 }
@@ -71,6 +78,10 @@ footer {
   font-family: "Open Sans";
   padding: 26px 0;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
@@ -78,6 +89,10 @@ footer #footerMaior .linhaEspacada {
 .pFooter {
   text-align: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
 .pFooter p {
   font-size: 13px;
   line-height: 17px;
@@ -96,9 +111,17 @@ footer #footerMaior .linhaEspacada {
   color: #2F2D2D;
   padding: 15px 0;
 }
+<<<<<<< HEAD
 #creditosSite #copyRight {
   justify-content: center;
 }
+=======
+
+#creditosSite #copyRight {
+  justify-content: center;
+}
+
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
 #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
@@ -108,8 +131,15 @@ footer #footerMaior .linhaEspacada {
   .logo {
     margin-bottom: 15px;
   }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
   #colunaIcones {
     padding-top: 1.5rem;
   }
 }
+<<<<<<< HEAD
+=======
+/*# sourceMappingURL=home.css.map */
+>>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41

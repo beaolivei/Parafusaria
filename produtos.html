@@ -5,68 +5,14 @@
     <title>Parafusaria | Nossos produtos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-
-    <style>
-
-        .btn {
-            background-color: #CBC8C8;
-            color: #2F2D2D;
-        }
-        .containerAmarelo {
-        background-color: #F9A631;
-        padding: 10px 0;
-        }
-
-        .linhaEspacada {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 10px 0;
-        }
-
-        .image {
-            opacity: 1;
-            display: block;
-            width: 100%;
-            height: auto;
-            transition: .5s ease;
-            backface-visibility: hidden;
-        }
-
-        .middle {
-            transition: .5s ease;
-            opacity: 0;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            -ms-transform: translate(-50%, -50%);
-            text-align: center;
-        }
-
-        .containerOverlay:hover .image {
-            opacity: 0.3;
-        }
-
-        .containerOverlay:hover .middle {
-            opacity: 1;
-        }
-
-        .tag {
-            background-color: #F9A631;
-            color: #2F2D2D;
-            font-size: 16px;
-            padding: 16px 32px;
-        }
-    </style>
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F9A631;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <img src="img/parafusaria.png" style="height: 80px">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -99,7 +45,7 @@
     <div class="row p-2">
         <div class="col-lg-1"></div>
         <div class="col-lg-4 containerOverlay">
-            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <img src="./img/store8.jpg" alt="" class="img-fluid image">
             <div class="middle">
                 <div class="tag">Material de Construção</div>
             </div>
@@ -116,14 +62,14 @@
     <div class="row p-2">
         <div class="col-lg-1"></div>
         <div class="col-lg-4 containerOverlay">
-            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <img src="./img/store2.jpg" alt="" class="img-fluid image">
             <div class="middle">
                 <div class="tag">Material Hidráulico</div>
             </div>
         </div>
         <div class="col-lg-2"></div>
         <div class="col-lg-4 containerOverlay">
-            <img src="http://placehold.it/480x335" alt="" class="img-fluid image">
+            <img src="./img/tools3.jpg" alt="" class="img-fluid image">
             <div class="middle">
                 <div class="tag">Ferramentas</div>
             </div>
@@ -133,14 +79,14 @@
     <div class="row p-2">
         <div class="col-lg-1"></div>
         <div class="col-lg-4 containerOverlay">
-            <img src="http://placehold.it/480x335" alt="" class="img-fluid">
+            <img src="./img/tools1.jpg" alt="" class="img-fluid">
             <div class="middle">
                 <div class="tag">Ferragens</div>
             </div>
         </div>
         <div class="col-lg-2"></div>
         <div class="col-lg-4 containerOverlay">
-            <img src="http://placehold.it/480x335" alt="" class="img-fluid">
+            <img src="./img/parafusaria9.jpg" alt="" class="img-fluid">
             <div class="middle">
                 <div class="tag">Pequenos Reparos</div>
             </div>
@@ -157,13 +103,45 @@
     </div>
     <div class="linhaEspacada">
         <img src="./img/whatsapp-logo.png" alt="Logo do WhatsApp" class="img-fluid" width="30px">
-        <h3> (13) 99715-4549</h3>
+        <h3>(13) 99715-4549</h3>
     </div>
     <div class="row d-block text-center">
         <a class="btn" href="https://bit.ly/2I8FcRF" target="_blank">Entre já em contato!</a>
     </div>
-
 </section>
-    
+
+<!-- FOOTER -->
+<footer>
+    <div id="footerMaior" class="container">
+        <div class="row linhaEspacada">
+            <div class="col-lg-4 d-inline-block text-center">
+                <img src="./img/logo atualizado PNG.png" alt="logo da Parafusaria" class="logo w-25">
+            </div>
+            <div class="pFooter col-lg-4">
+                <p>Rua Leonardo Roitman, 26</p>
+                <p>Vila Matias | Santos-SP</p>
+                <p>Telefone: (13) 3394-9476</p>
+                <p>Celular: (13) 99715-4549</p>
+            </div>
+            <div id="colunaIcones" class="col-lg-4">
+                <div class="row linhaEspacada">
+                    <a href="https://www.facebook.com/loja.parafusaria/" target="_blank"><img class="icone" src="./img/facebook.png" alt="icone Facebook"></a>               
+
+                    <a href="https://www.instagram.com/loja.parafusaria/" target="_blank"><img class="icone" src="./img/instagram.png" alt="icone Instagram"></a>     
+
+                    <a href="https://bit.ly/2I8FcRF" target="_blank"><img class="icone" src="./img/whatsapp.png" alt="icone Whatsapp"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<section id="creditosSite" class="d-block text-center w-100 m-0">
+    <div class="container px-0">
+        <div id="copyRight" class="row">
+            <p>Desenvolvido pelas alunas da {reprograma} © 2018</p>
+        </div>
+    </div>
+</section>
+<script src="main.js"></script>
 </body>
 </html>
