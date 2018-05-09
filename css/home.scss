@@ -1,0 +1,97 @@
+$laranja-logo: #f9a631;
+$cinza-logo: #848688;
+$verde-claro: #6CD3F0;
+$verde-escuro: #13BBB3;
+$fonte-padrao: 'Open Sans';
+.icone {
+    width: 30px;
+}
+footer {
+    background-color: #cbc8c8;
+    font-family: $fonte-padrao;
+}
+.p_footer {
+    text-align: center;
+}
+.linhaEspacada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+
+}
+.logo {
+    margin-left: 258px;
+}
+$cinza-escuro:#2F2D2D;
+$verde: #13BBB3;
+// $verde-claro: #6CD3F0;
+$fonte-padrao: "Open Sans";
+
+
+*{
+    font-family: $fonte-padrao;
+}
+
+// NAV
+.navbar{
+    background-color:$laranja-logo;
+}
+
+// HEADER
+header{
+    margin-top: 80px;
+}
+
+.header-descricao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+// DIFERENCIAIS
+.fundo-verde{
+    background-color: $verde;
+    padding: 100px;
+}
+
+.card {
+    // padding: 20px 0;
+    border: none;
+    background: transparent;
+}
+
+.card-amarelo{
+    background-color: $laranja-logo;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.diferenciais-img{
+    width: 120px;
+    padding: 20px 0
+}
+
+.diferenciais-txt {
+    font-family: $fonte-padrao;
+    font-weight: bold;
+}
+
+.contato-txt{
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.contato-btn{
+    color: $cinza-escuro;
+    background-color: $laranja-logo;
+
+}
+
+// CONTATO
+
+// iframe {
+//     width: 50px;
+// }
+
+// FOOTER
