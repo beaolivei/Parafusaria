@@ -105,11 +105,6 @@ footer #footerMaior .linhaEspacada {
     padding-top: 1.5rem;
   }
 }
-#nossosProdutos {
-  margin-top: 110px;
-  margin-bottom: 30px;
-}
-
 #fazerPedido .btn {
   background-color: #cbc8c8;
   color: #2F2D2D;
@@ -117,7 +112,7 @@ footer #footerMaior .linhaEspacada {
 
 .containerAmarelo {
   background-color: #F9A631;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .linhaEspacada {
