@@ -2,23 +2,35 @@ html,
 body {
   overflow-x: hidden;
 }
-html #containerDepoimentos,
-body #containerDepoimentos {
-  background-image: url(./img/pexels01.jpeg);
+
+html #clientesDizem,
+body #clientesDizem {
+  margin-top: 100px;
+}
+
+html #clientesDizem #containerDepoimentos,
+body #clientesDizem #containerDepoimentos {
+  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/header_parceiros.jpeg);
   background-size: cover;
+  background-position: center center;
   height: 57vh;
   display: flex;
   justify-content: center;
   align-items: end;
 }
 
-#conteudoCarrosel {
-  background-color: #F9A631;
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
+  color: #FFFFFF;
 }
 
-.btn {
-  background-color: #F9A631;
-  color: #2F2D2D;
+html #Projetos #linhaBotaoCadastrar,
+body #Projetos #linhaBotaoCadastrar {
+  margin-bottom: 25px;
+}
+
+#linhaEspecial {
+  margin-bottom: 25px;
 }
 
 .linhaEspacada {
@@ -31,3 +43,4 @@ body #containerDepoimentos {
   background-color: #F9A631;
   padding: 10px 0;
 }
+/*# sourceMappingURL=parceiros_e_projetos.css.map */

@@ -2,26 +2,52 @@ html,
 body {
     overflow-x: hidden;
 
-  #containerDepoimentos {
-    background-image: url(./img/pexels01.jpeg);
-    background-size: cover;
-    height: 57vh;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-  }
+    #clientesDizem {
+      margin-top: 100px;
+
+      #containerDepoimentos {
+        background-image:  linear-gradient(
+          rgba(145, 139, 139, 0.45), 
+          rgba(110, 106, 106, 0.45)
+        ), url(../img/header_parceiros.jpeg);
+        background-size: cover;
+        background-position: center center;
+        height: 57vh;
+        display: flex;
+        justify-content: center;
+        align-items: end;
+      }
+
+      #carrosselDepoimentos {
+
+        #conteudoCarrossel {
+
+          .carousel-item {
+            blockquote {
+              p {
+                color: #FFFFFF;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    #Projetos {
+      #linhaBotaoCadastrar {
+        margin-bottom: 25px;
+      }
+    }
 }
 
-
-
-#conteudoCarrosel {
-    background-color: #F9A631;
+#linhaEspecial {
+  margin-bottom: 25px;
 }
 
-.btn {
-    background-color: #F9A631;
-    color: #2F2D2D;
-}
+// #conteudoCarrosel {
+//     background-color: #F9A631;
+// }
+
 
 .linhaEspacada {
     align-items: center;

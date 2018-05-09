@@ -63,6 +63,7 @@ footer {
   font-family: "Open Sans";
   padding: 26px 0;
 }
+
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
@@ -70,6 +71,7 @@ footer #footerMaior .linhaEspacada {
 .pFooter {
   text-align: center;
 }
+
 .pFooter p {
   font-size: 13px;
   line-height: 17px;
@@ -88,9 +90,11 @@ footer #footerMaior .linhaEspacada {
   color: #2F2D2D;
   padding: 15px 0;
 }
+
 #creditosSite #copyRight {
   justify-content: center;
 }
+
 #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
@@ -100,49 +104,8 @@ footer #footerMaior .linhaEspacada {
   .logo {
     margin-bottom: 15px;
   }
-
   #colunaIcones {
     padding-top: 1.5rem;
   }
 }
-html,
-body {
-  overflow-x: hidden;
-}
-html #clientesDizem,
-body #clientesDizem {
-  margin-top: 100px;
-}
-html #clientesDizem #containerDepoimentos,
-body #clientesDizem #containerDepoimentos {
-  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/header_parceiros.jpeg);
-  background-size: cover;
-  background-position: center center;
-  height: 57vh;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-}
-html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
-body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
-  color: #FFFFFF;
-}
-html #Projetos #linhaBotaoCadastrar,
-body #Projetos #linhaBotaoCadastrar {
-  margin-bottom: 25px;
-}
-
-#linhaEspecial {
-  margin-bottom: 25px;
-}
-
-.linhaEspacada {
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 50px 0;
-}
-
-.containerAmarelo {
-  background-color: #F9A631;
-  padding: 10px 0;
-}
+/*# sourceMappingURL=home.css.map */
