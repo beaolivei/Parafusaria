@@ -105,3 +105,36 @@ footer #footerMaior .linhaEspacada {
     padding-top: 1.5rem;
   }
 }
+body #historia h2 {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 40px;
+}
+body #historia p {
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-size: 18px;
+}
+body #historia #loja #historia {
+  text-align: center;
+}
+
+#flavia #fotoFlavia {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 10px;
+}
+#flavia h2 {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 40px;
+}
+#flavia p {
+  letter-spacing: 2px;
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+#flavia .fotosAvo {
+  padding: 25px;
+}
