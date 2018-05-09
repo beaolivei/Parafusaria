@@ -3,54 +3,34 @@ $cinza-logo: #848688;
 $verde-claro: #6CD3F0;
 $verde-escuro: #13BBB3;
 $fonte-padrao: 'Open Sans';
-.icone {
-    width: 30px;
-}
-footer {
-    background-color: #cbc8c8;
-    font-family: $fonte-padrao;
-}
-.p_footer {
-    text-align: center;
-}
-.linhaEspacada {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0;
-
-}
-.logo {
-    margin-left: 258px;
-}
-$cinza-escuro:#2F2D2D;
+$cinza-claro: #ededed;
+$cinza-escuro: #2F2D2D;
+$cinza-footer: #cbc8c8;
 $verde: #13BBB3;
-// $verde-claro: #6CD3F0;
 $fonte-padrao: "Open Sans";
 
-
-*{
+* {
     font-family: $fonte-padrao;
 }
 
 // NAV
-.navbar{
+.navbar {
     background-color:$laranja-logo;
 }
 
 // HEADER
-header{
+header {
     margin-top: 80px;
 }
 
-.header-descricao{
+.headerDescricao {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 // DIFERENCIAIS
-.fundo-verde{
+.fundoVerde {
     background-color: $verde;
     padding: 100px;
 }
@@ -61,37 +41,86 @@ header{
     background: transparent;
 }
 
-.card-amarelo{
+.cardAmarelo {
     background-color: $laranja-logo;
     border-radius: 10px;
     margin: 30px;
 }
 
-.diferenciais-img{
+.diferenciaisImg {
     width: 120px;
     padding: 20px 0
 }
 
-.diferenciais-txt {
+.diferenciaisTxt {
     font-family: $fonte-padrao;
     font-weight: bold;
 }
 
-.contato-txt{
+.contatoTxt {
     letter-spacing: 2px;
     line-height: 30px;
 }
 
-.contato-btn{
+.contatoBtn {
     color: $cinza-escuro;
     background-color: $laranja-logo;
-
 }
 
-// CONTATO
-
-// iframe {
-//     width: 50px;
-// }
-
 // FOOTER
+.icone {
+    width: 34px;
+    height: 23px;
+    padding: 0 5px;
+}
+
+footer {
+    background-color: $cinza-footer;
+    font-family: $fonte-padrao;
+    padding: 26px 0;
+    #footerMaior {
+        .linhaEspacada {
+            margin: 0;
+        }
+    }
+}
+
+.pFooter {
+    text-align: center;
+    p {
+        font-size: 13px;
+        line-height: 17px;
+        margin-bottom: 0;
+    }
+}
+
+.linhaEspacada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#creditosSite {
+    background-color: $cinza-claro;
+    color: $cinza-escuro;
+    padding: 15px 0;
+
+    #copyRight {
+        justify-content: center;
+
+        p {
+            margin-bottom: 0;
+            font-size: 12px;
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    .logo {
+        margin-bottom: 15px;
+    }
+    #colunaIcones {
+        padding-top: 1.5rem;
+    }
+}
