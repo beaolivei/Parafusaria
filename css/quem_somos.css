@@ -1,3 +1,19 @@
+body #headerQuemSomos {
+  margin-top: 0;
+}
+
+body #headerQuemSomos #banner {
+  margin: 0;
+  width: 100%;
+}
+
+body #headerQuemSomos #banner .carousel-item img {
+  height: 75vh;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
+
 body .carousel-indicators li {
   border-radius: 12px;
   width: 12px;
@@ -5,26 +21,17 @@ body .carousel-indicators li {
   background-color: #404040;
 }
 
-body #historia h2 {
+body #loja h2 {
   padding: 25px 0;
   text-align: center;
   font-size: 40px;
 }
 
-body #historia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+body #loja p {
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
-}
-
-body #historia #loja #historia {
-  text-align: center;
-}
-
-#flavia #fotoFlavia {
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 10px;
+  text-align: left;
 }
 
 #flavia h2 {
@@ -33,14 +40,28 @@ body #historia #loja #historia {
   font-size: 40px;
 }
 
+#flavia #fotoFlavia {
+  width: 55%;
+  padding-bottom: 25px;
+}
+
 #flavia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 
 #flavia .fotosAvo {
   padding: 25px;
+}
+
+@media (max-width: 991px) {
+  body #headerQuemSomos #banner .carousel-item img {
+    height: 65vh;
+  }
+  body #flavia #fotoFlavia {
+    width: 100%;
+  }
 }
 /*# sourceMappingURL=quem_somos.css.map */
