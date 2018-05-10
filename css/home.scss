@@ -14,31 +14,67 @@ $fonte-padrao: "Open Sans";
 }
 
 // NAV
-.navbar {
+html,
+body{
+    overflow-x: hidden;
+    .navbar {
     background-color:$laranja-logo;
-}
+    }
 
 // HEADER
-header {
-    margin-top: 80px;
-    .headerDescricao {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    header {
+        margin-top: 80px;
+        .header-home {
+            background-image: url(../img/pexels02.jpeg);
+            background-size: cover;
+            background-position: top center;
+            height: 85vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .card-img-overlay {
+                position: static;
+            }
+            .headerDescricao {
+                padding: 40px;
+                width: 380px;
+                height: 305px;
+                background-color: rgba(249,166,49,0.8);
+                h1 {
+                    font-size: xx-large;
+                    font-weight: bold;
+                    color: black;
+                }
+                p {
+                    color: black;
+                    font-weight: bold;
+                    max-width: 400px;
+                }
+            }
+        }
     }
-}
-
-.headerImg{
-    height: 60px;
-}
-
-.headerDescricao {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
 // DIFERENCIAIS
+    .fundoVerde {
+        background-color: $verde;
+        padding: 100px;
+    }
+
+    .card {
+        border: none;
+        background: transparent;
+    }
+
+    .cardAmarelo {
+        background-color: $laranja-logo;
+        border-radius: 10px;
+        margin: 30px;
+    }
+
+    .diferenciaisImg {
+        width: 120px;
+        padding: 20px 0
+    }
 .fundoVerde {
     background-color: $verde;
     padding: 100px;
@@ -71,46 +107,55 @@ header {
 
 
 
-.contatoTxt {
-    letter-spacing: 2px;
-    line-height: 30px;
-}
+    .diferenciaisTxt {
+        font-family: $fonte-padrao;
+        font-weight: bold;
+    }
 
+    // CONTATO
+    .contatoTxt {
+        letter-spacing: 2px;
+        line-height: 30px;
+    }
 
-.contatoSecao {
-    .contatoLinha {
-        .contatoCadastro {
-            .btnParafusaria:hover {
-                background-color: $verde;
-            }
-            .btnParafusaria {
-                color: $cinza-escuro;
+    // BOTÃO PADRÃO
+    .contatoSecao {
+        .contatoLinha {
+            .contatoCadastro {
+                .btnParafusaria:hover {
+                    background-color: $verde;
+                }
+                .btnParafusaria {
+                    color: $cinza-escuro;
+                }
             }
         }
     }
-}
 
-.btnParafusaria {
-    color: $cinza-escuro;
-    background-color: $laranja-logo;
-}
+    .btnParafusaria {
+        color: $cinza-escuro;
+        font-weight: bold;
+        background-color: $laranja-logo;
+    }
 
-// FOOTER
-.icone {
-    width: 34px;
-    height: 23px;
-    padding: 0 5px;
-}
+    // FOOTER
+    .icone {
+        width: 34px;
+        height: 23px;
+        padding: 0 5px;
+    }
 
-footer {
-    background-color: $cinza-footer;
-    font-family: $fonte-padrao;
-    padding: 26px 0;
-    #footerMaior {
-        .linhaEspacada {
-            margin: 0;
+    footer {
+        background-color: $cinza-footer;
+        font-family: $fonte-padrao;
+        padding: 26px 0;
+        #footerMaior {
+            .linhaEspacada {
+                margin: 0;
+            }
         }
     }
+
     .pFooter {
         text-align: center;
         p {
@@ -119,7 +164,6 @@ footer {
             margin-bottom: 0;
         }
     }
-}
 
 
 
@@ -130,17 +174,41 @@ footer {
     margin: 10px 0;
 }
 
-#creditosSite {
-    background-color: $cinza-claro;
-    color: $cinza-escuro;
-    padding: 15px 0;
+    #creditosSite {
+        background-color: $cinza-claro;
+        color: $cinza-escuro;
+        padding: 15px 0;
 
-    #copyRight {
-        justify-content: center;
+        #copyRight {
+            justify-content: center;
 
-        p {
-            margin-bottom: 0;
-            font-size: 12px;
+            p {
+                margin-bottom: 0;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) {
+    .fundoVerde {
+        .diferenciaisContainer {
+            margin: 0;
+            .diferenciaisRow {
+                margin: 0 -50px;
+                .diferenciaisCol {
+                    padding: 0 15px;
+                    .diferenciaisCard {
+                        margin: 0;
+                        padding: 0;
+                        .cardAmarelo{
+                            margin: 0 0 30px 0;
+                            padding: 0 10px 15px 10px;
+                        }
+
+                    }
+                }
+            }
         }
     }
 }
@@ -155,8 +223,8 @@ footer {
 }
 //Botão Flutuante para Whatsapp
 #whats_botao {
-    background-color: #FF4500;
-    width: 16%;
+    background-color: rgba(255,69,0, $alpha: 0.9);
+    width: 12%;
     text-align: center;
     font-family: $fonte-padrao;
     margin-left: 80%;
