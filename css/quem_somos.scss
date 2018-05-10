@@ -1,4 +1,10 @@
 body {
+    .carousel-indicators li {
+        border-radius: 12px;
+        width: 12px;
+        height: 12px;
+        background-color: #404040;
+    }
     #historia {
         h2 {
             padding: 25px 0;

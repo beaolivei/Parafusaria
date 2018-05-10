@@ -54,7 +54,6 @@ header {
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
-
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
@@ -75,7 +74,6 @@ footer {
   font-family: "Open Sans";
   padding: 26px 0;
 }
-
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
@@ -83,7 +81,6 @@ footer #footerMaior .linhaEspacada {
 .pFooter {
   text-align: center;
 }
-
 .pFooter p {
   font-size: 13px;
   line-height: 17px;
@@ -102,11 +99,9 @@ footer #footerMaior .linhaEspacada {
   color: #2F2D2D;
   padding: 15px 0;
 }
-
 #creditosSite #copyRight {
   justify-content: center;
 }
-
 #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
@@ -116,6 +111,7 @@ footer #footerMaior .linhaEspacada {
   .logo {
     margin-bottom: 15px;
   }
+
   #colunaIcones {
     padding-top: 1.5rem;
   }
@@ -130,6 +126,10 @@ footer #footerMaior .linhaEspacada {
 
 header {
   margin-top: 80px;
+}
+
+.headerImg {
+  height: 60px;
 }
 
 .headerDescricao {
@@ -169,7 +169,14 @@ header {
   line-height: 30px;
 }
 
-.contatoBtn {
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+  background-color: #13BBB3;
+}
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+  color: #2F2D2D;
+}
+
+.btnParafusaria {
   color: #2F2D2D;
   background-color: #f9a631;
 }
@@ -317,7 +324,6 @@ body #Projetos .linhaEspacada {
     margin: 20px 0;
   }
 }
-
 #nossosProdutos {
   margin-top: 110px;
   margin-bottom: 30px;
@@ -345,12 +351,12 @@ body #Projetos .linhaEspacada {
   display: block;
   width: 100%;
   height: auto;
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
 .middle {
-  transition: .5s ease;
+  transition: 0.5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -374,7 +380,13 @@ body #Projetos .linhaEspacada {
   font-size: 16px;
   padding: 16px 32px;
 }
-/*# sourceMappingURL=style.css.map */
+
+body .carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
 body #historia h2 {
   padding: 25px 0;
   text-align: center;
