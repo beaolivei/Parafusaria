@@ -153,3 +153,23 @@ footer {
         padding-top: 1.5rem;
     }
 }
+//Botão Flutuante para Whatsapp
+#whats_botao {
+    background-color: #FF4500;
+    width: 16%;
+    text-align: center;
+    font-family: $fonte-padrao;
+    margin-left: 80%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    z-index: 1;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 8px;
+    @media (max-width: 1000px) {
+        display: none;
+    
+    }
+
+}

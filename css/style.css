@@ -9,6 +9,11 @@
 header {
   margin-top: 80px;
 }
+header .headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
 .headerImg {
   height: 60px;
@@ -24,26 +29,27 @@ header {
   background-color: #13BBB3;
   padding: 100px;
 }
-
-.card {
+.fundoVerde .card {
   border: none;
   background: transparent;
 }
-
-.cardAmarelo {
+.fundoVerde .card .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
-
-.diferenciaisImg {
+.fundoVerde .card .cardAmarelo .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
-
-.diferenciaisTxt {
+.fundoVerde .card .cardAmarelo .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
+}
+
+.card {
+  border: none;
+  background: transparent;
 }
 
 .contatoTxt {
@@ -54,7 +60,6 @@ header {
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
-
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
@@ -75,16 +80,13 @@ footer {
   font-family: "Open Sans";
   padding: 26px 0;
 }
-
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
-
-.pFooter {
+footer .pFooter {
   text-align: center;
 }
-
-.pFooter p {
+footer .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
@@ -102,11 +104,9 @@ footer #footerMaior .linhaEspacada {
   color: #2F2D2D;
   padding: 15px 0;
 }
-
 #creditosSite #copyRight {
   justify-content: center;
 }
-
 #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
@@ -121,6 +121,26 @@ footer #footerMaior .linhaEspacada {
     padding-top: 1.5rem;
   }
 }
+#whats_botao {
+  background-color: #FF4500;
+  width: 16%;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-left: 80%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+@media (max-width: 1000px) {
+  #whats_botao {
+    display: none;
+  }
+}
+
 * {
   font-family: "Open Sans";
 }
@@ -131,6 +151,15 @@ footer #footerMaior .linhaEspacada {
 
 header {
   margin-top: 80px;
+}
+header .headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerImg {
+  height: 60px;
 }
 
 .headerDescricao {
@@ -143,26 +172,27 @@ header {
   background-color: #13BBB3;
   padding: 100px;
 }
-
-.card {
+.fundoVerde .card {
   border: none;
   background: transparent;
 }
-
-.cardAmarelo {
+.fundoVerde .card .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
-
-.diferenciaisImg {
+.fundoVerde .card .cardAmarelo .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
-
-.diferenciaisTxt {
+.fundoVerde .card .cardAmarelo .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
+}
+
+.card {
+  border: none;
+  background: transparent;
 }
 
 .contatoTxt {
@@ -170,7 +200,14 @@ header {
   line-height: 30px;
 }
 
-.contatoBtn {
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+  background-color: #13BBB3;
+}
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+  color: #2F2D2D;
+}
+
+.btnParafusaria {
   color: #2F2D2D;
   background-color: #f9a631;
 }
@@ -189,11 +226,10 @@ footer {
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
-
-.pFooter {
+footer .pFooter {
   text-align: center;
 }
-.pFooter p {
+footer .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
@@ -228,6 +264,26 @@ footer #footerMaior .linhaEspacada {
     padding-top: 1.5rem;
   }
 }
+#whats_botao {
+  background-color: #FF4500;
+  width: 16%;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-left: 80%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+@media (max-width: 1000px) {
+  #whats_botao {
+    display: none;
+  }
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -382,43 +438,41 @@ body #Projetos .linhaEspacada {
   padding: 16px 32px;
 }
 
-/*# sourceMappingURL=style.css.map */
 body .carousel-indicators li {
   border-radius: 12px;
   width: 12px;
   height: 12px;
   background-color: #404040;
 }
-body #historia h2 {
-  padding: 25px 0;
+body #loja h2 {
   text-align: center;
-  font-size: 40px;
 }
-body #historia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+body #loja p {
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
-}
-body #historia #loja #historia {
-  text-align: center;
+  text-align: left;
 }
 
-#flavia #fotoFlavia {
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 10px;
-}
 #flavia h2 {
   padding: 25px 0;
   text-align: center;
   font-size: 40px;
 }
+#flavia #fotoFlavia {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 10px;
+}
 #flavia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
 }
 #flavia .fotosAvo {
   padding: 25px;
+}
+#flavia .fotosAvo img {
+  border-radius: 10px;
 }
