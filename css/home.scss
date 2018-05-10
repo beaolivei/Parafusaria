@@ -21,6 +21,11 @@ $fonte-padrao: "Open Sans";
 // HEADER
 header {
     margin-top: 80px;
+    .headerDescricao {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 
 .headerImg{
@@ -37,6 +42,25 @@ header {
 .fundoVerde {
     background-color: $verde;
     padding: 100px;
+    .card {
+        // padding: 20px 0;
+        border: none;
+        background: transparent;
+        .cardAmarelo {
+            background-color: $laranja-logo;
+            border-radius: 10px;
+            margin: 30px;
+            .diferenciaisImg {
+                width: 120px;
+                padding: 20px 0
+            }
+            .diferenciaisTxt {
+                font-family: $fonte-padrao;
+                font-weight: bold;
+            }
+        }
+    }
+ 
 }
 
 .card {
@@ -44,21 +68,8 @@ header {
     background: transparent;
 }
 
-.cardAmarelo {
-    background-color: $laranja-logo;
-    border-radius: 10px;
-    margin: 30px;
-}
 
-.diferenciaisImg {
-    width: 120px;
-    padding: 20px 0
-}
 
-.diferenciaisTxt {
-    font-family: $fonte-padrao;
-    font-weight: bold;
-}
 
 .contatoTxt {
     letter-spacing: 2px;
@@ -100,16 +111,17 @@ footer {
             margin: 0;
         }
     }
-}
-
-.pFooter {
-    text-align: center;
-    p {
-        font-size: 13px;
-        line-height: 17px;
-        margin-bottom: 0;
+    .pFooter {
+        text-align: center;
+        p {
+            font-size: 13px;
+            line-height: 17px;
+            margin-bottom: 0;
+        }
     }
 }
+
+
 
 .linhaEspacada {
     display: flex;
