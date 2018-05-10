@@ -2,13 +2,26 @@
   font-family: "Open Sans";
 }
 
-.navbar {
+html,
+body {
+  overflow-x: hidden;
+}
+html .navbar,
+body .navbar {
   background-color: #f9a631;
 }
-
-header {
+html header,
+body header {
   margin-top: 80px;
 }
+<<<<<<< HEAD
+html header .header-home,
+body header .header-home {
+  background-image: url(../img/pexels02.jpeg);
+  background-size: cover;
+  background-position: top center;
+  height: 85vh;
+=======
 header .headerDescricao {
   display: flex;
   flex-direction: column;
@@ -20,15 +33,48 @@ header .headerDescricao {
 }
 
 .headerDescricao {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
-
-.fundoVerde {
+html header .header-home .card-img-overlay,
+body header .header-home .card-img-overlay {
+  position: static;
+}
+html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+  padding: 40px;
+  width: 380px;
+  height: 305px;
+  background-color: rgba(249, 166, 49, 0.8);
+}
+html header .header-home .headerDescricao h1,
+body header .header-home .headerDescricao h1 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: black;
+}
+html header .header-home .headerDescricao p,
+body header .header-home .headerDescricao p {
+  color: black;
+  font-weight: bold;
+  max-width: 400px;
+}
+html .fundoVerde,
+body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+<<<<<<< HEAD
+html .card,
+body .card {
+  border: none;
+  background: transparent;
+}
+html .cardAmarelo,
+body .cardAmarelo {
+=======
 .fundoVerde .card {
   border: none;
   background: transparent;
@@ -177,10 +223,25 @@ header .headerDescricao {
   background: transparent;
 }
 .fundoVerde .card .cardAmarelo {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+<<<<<<< HEAD
+html .diferenciaisImg,
+body .diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+html .diferenciaisTxt,
+body .diferenciaisTxt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+html .contatoTxt,
+body .contatoTxt {
+=======
 .fundoVerde .card .cardAmarelo .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
@@ -196,33 +257,52 @@ header .headerDescricao {
 }
 
 .contatoTxt {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   letter-spacing: 2px;
   line-height: 30px;
 }
-
-.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
+body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
+<<<<<<< HEAD
+html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
+body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+=======
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   color: #2F2D2D;
 }
-
-.btnParafusaria {
+html .btnParafusaria,
+body .btnParafusaria {
   color: #2F2D2D;
+  font-weight: bold;
   background-color: #f9a631;
 }
-
-.icone {
+html .icone,
+body .icone {
   width: 34px;
   height: 23px;
   padding: 0 5px;
 }
-
-footer {
+html footer,
+body footer {
   background-color: #cbc8c8;
   font-family: "Open Sans";
   padding: 26px 0;
 }
+<<<<<<< HEAD
+html footer #footerMaior .linhaEspacada,
+body footer #footerMaior .linhaEspacada {
+  margin: 0;
+}
+html .pFooter,
+body .pFooter {
+  text-align: center;
+}
+html .pFooter p,
+body .pFooter p {
+=======
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
@@ -230,31 +310,60 @@ footer .pFooter {
   text-align: center;
 }
 footer .pFooter p {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
 }
-
-.linhaEspacada {
+html .linhaEspacada,
+body .linhaEspacada {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 10px 0;
 }
-
-#creditosSite {
+html #creditosSite,
+body #creditosSite {
   background-color: #ededed;
   color: #2F2D2D;
   padding: 15px 0;
 }
+<<<<<<< HEAD
+html #creditosSite #copyRight,
+body #creditosSite #copyRight {
+  justify-content: center;
+}
+html #creditosSite #copyRight p,
+body #creditosSite #copyRight p {
+=======
 #creditosSite #copyRight {
   justify-content: center;
 }
 #creditosSite #copyRight p {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   margin-bottom: 0;
   font-size: 12px;
 }
 
+@media (min-width: 320px) {
+  .fundoVerde .diferenciaisContainer {
+    margin: 0;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow {
+    margin: 0 -50px;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol {
+    padding: 0 15px;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard {
+    margin: 0;
+    padding: 0;
+  }
+  .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard .cardAmarelo {
+    margin: 0 0 30px 0;
+    padding: 0 10px 15px 10px;
+  }
+}
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
@@ -264,6 +373,8 @@ footer .pFooter p {
     padding-top: 1.5rem;
   }
 }
+<<<<<<< HEAD
+=======
 #whats_botao {
   background-color: rgba(255, 69, 0, 0.9);
   width: 12%;
@@ -375,6 +486,7 @@ body #Projetos .linhaEspacada {
     margin: 20px 0;
   }
 }
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
 #nossosProdutos {
   margin-top: 110px;
   margin-bottom: 30px;
@@ -437,6 +549,8 @@ body #Projetos .linhaEspacada {
   font-size: 16px;
   padding: 16px 32px;
 }
+<<<<<<< HEAD
+=======
 
 body .carousel-indicators li {
   border-radius: 12px;
@@ -476,3 +590,4 @@ body #loja p {
 #flavia .fotosAvo img {
   border-radius: 10px;
 }
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
