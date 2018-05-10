@@ -438,8 +438,12 @@ body #historia #loja #historia {
   line-height: 50px;
   font-size: 18px;
   text-align: center;
+  padding: 0 -100px;
 }
 
 #flavia .fotosAvo {
   padding: 25px;
+}
+#flavia .fotosAvo img {
+  border-radius: 10px;
 }
