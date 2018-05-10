@@ -4,6 +4,10 @@ html,
 body {
   overflow-x: hidden;
 
+  #imagemSecreta {
+    display: none;
+  }
+
   #clientesDizem {
     margin-top: 100px;
 
@@ -11,7 +15,7 @@ body {
       background-image:  linear-gradient(
         rgba(145, 139, 139, 0.45), 
         rgba(110, 106, 106, 0.45)
-      ), url(../img/header_parceiros.jpeg);
+      ), url(../img/pexelParceiros.jpeg);
       background-size: cover;
       background-position: center center;
       height: 57vh;
@@ -52,10 +56,7 @@ body {
 
   #nossosClientes {
     #logosClientes {
-      display: flex;
-      align-items: center;
       justify-content: space-evenly;
-      margin: 10px 0;
     }
   }
 }
@@ -70,9 +71,13 @@ body {
 }
 
 
-@media (max-width: 508px) {
+@media (max-width: 767px) {
   html,
   body {
+    #imagemSecreta {
+      display: initial;
+    }
+
     h2 {
       font-size: 1.5rem;
     }
@@ -86,10 +91,10 @@ body {
 
     #clientesDizem {
       #containerDepoimentos {
-        height: 68vh;
+        height: 72vh;
 
         #conteudoCarrossel {
-          height: 247px;
+          height: 253px;
           width: 200px;
 
           blockquote {
@@ -102,7 +107,37 @@ body {
     #Projetos {
       .linhaEspacada {
         margin: 20px 0;
+        #imagemSumir {
+          display: none;
+        }
       }
+      .colunaProjetos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+      }
+    }
+    #nossosClientes {
+      #logosClientes {
+        flex-direction: column;
+        img {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 991px) {
+  #Projetos {
+    h2 {
+      margin-bottom: 24px;
+    }
+  }
+  #nossosClientes {
+    h2 {
+      margin-bottom: 20px;
     }
   }
 }

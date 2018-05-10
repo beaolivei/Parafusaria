@@ -238,13 +238,17 @@ html,
 body {
   overflow-x: hidden;
 }
+html #imagemSecreta,
+body #imagemSecreta {
+  display: none;
+}
 html #clientesDizem,
 body #clientesDizem {
   margin-top: 100px;
 }
 html #clientesDizem #containerDepoimentos,
 body #clientesDizem #containerDepoimentos {
-  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/header_parceiros.jpeg);
+  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/pexelParceiros.jpeg);
   background-size: cover;
   background-position: center center;
   height: 57vh;
@@ -278,10 +282,7 @@ body #Projetos #linhaBotaoCadastrar {
 }
 html #nossosClientes #logosClientes,
 body #nossosClientes #logosClientes {
-  display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  margin: 10px 0;
 }
 
 #linhaEspecial {
@@ -293,7 +294,11 @@ body #nossosClientes #logosClientes {
   padding: 10px 0;
 }
 
-@media (max-width: 508px) {
+@media (max-width: 767px) {
+  html #imagemSecreta,
+body #imagemSecreta {
+    display: initial;
+  }
   html h2,
 body h2 {
     font-size: 1.5rem;
@@ -309,11 +314,11 @@ body p {
   }
   html #clientesDizem #containerDepoimentos,
 body #clientesDizem #containerDepoimentos {
-    height: 68vh;
+    height: 72vh;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel,
 body #clientesDizem #containerDepoimentos #conteudoCarrossel {
-    height: 247px;
+    height: 253px;
     width: 200px;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote,
@@ -323,6 +328,34 @@ body #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote {
   html #Projetos .linhaEspacada,
 body #Projetos .linhaEspacada {
     margin: 20px 0;
+  }
+  html #Projetos .linhaEspacada #imagemSumir,
+body #Projetos .linhaEspacada #imagemSumir {
+    display: none;
+  }
+  html #Projetos .colunaProjetos,
+body #Projetos .colunaProjetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  html #nossosClientes #logosClientes,
+body #nossosClientes #logosClientes {
+    flex-direction: column;
+  }
+  html #nossosClientes #logosClientes img,
+body #nossosClientes #logosClientes img {
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 991px) {
+  #Projetos h2 {
+    margin-bottom: 24px;
+  }
+
+  #nossosClientes h2 {
+    margin-bottom: 20px;
   }
 }
 #nossosProdutos {
@@ -400,8 +433,8 @@ body #historia h2 {
   font-size: 40px;
 }
 body #historia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
 }
 body #historia #loja #historia {
@@ -419,8 +452,8 @@ body #historia #loja #historia {
   font-size: 40px;
 }
 #flavia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
   text-align: center;
   padding: 0 -100px;
