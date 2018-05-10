@@ -21,9 +21,13 @@ body {
       #carrosselDepoimentos {
 
         #conteudoCarrossel {
-
+          height: 170px;
+          width: 700px;
+          background-color: #F9A631;
           .carousel-item {
+
             blockquote {
+              padding-bottom: 10px;
               p {
                 color: #FFFFFF;
               }

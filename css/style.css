@@ -123,6 +123,16 @@ body #clientesDizem #containerDepoimentos {
   justify-content: center;
   align-items: end;
 }
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
+  height: 170px;
+  width: 700px;
+  background-color: #F9A631;
+}
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote {
+  padding-bottom: 10px;
+}
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
   color: #FFFFFF;
