@@ -14,12 +14,26 @@ html header,
 body header {
   margin-top: 80px;
 }
+<<<<<<< HEAD
 html header .header-home,
 body header .header-home {
   background-image: url(../img/pexels02.jpeg);
   background-size: cover;
   background-position: top center;
   height: 85vh;
+=======
+header .headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerImg {
+  height: 60px;
+}
+
+.headerDescricao {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,6 +66,7 @@ body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+<<<<<<< HEAD
 html .card,
 body .card {
   border: none;
@@ -59,10 +74,161 @@ body .card {
 }
 html .cardAmarelo,
 body .cardAmarelo {
+=======
+.fundoVerde .card {
+  border: none;
+  background: transparent;
+}
+.fundoVerde .card .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+.fundoVerde .card .cardAmarelo .diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+.fundoVerde .card .cardAmarelo .diferenciaisTxt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.contatoTxt {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+  background-color: #13BBB3;
+}
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+  color: #2F2D2D;
+}
+
+.btnParafusaria {
+  color: #2F2D2D;
+  background-color: #f9a631;
+}
+
+.icone {
+  width: 34px;
+  height: 23px;
+  padding: 0 5px;
+}
+
+footer {
+  background-color: #cbc8c8;
+  font-family: "Open Sans";
+  padding: 26px 0;
+}
+footer #footerMaior .linhaEspacada {
+  margin: 0;
+}
+footer .pFooter {
+  text-align: center;
+}
+footer .pFooter p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#creditosSite {
+  background-color: #ededed;
+  color: #2F2D2D;
+  padding: 15px 0;
+}
+#creditosSite #copyRight {
+  justify-content: center;
+}
+#creditosSite #copyRight p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 990px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  #colunaIcones {
+    padding-top: 1.5rem;
+  }
+}
+#whats_botao {
+  background-color: #FF4500;
+  width: 16%;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-left: 80%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+@media (max-width: 1000px) {
+  #whats_botao {
+    display: none;
+  }
+}
+
+* {
+  font-family: "Open Sans";
+}
+
+.navbar {
+  background-color: #f9a631;
+}
+
+header {
+  margin-top: 80px;
+}
+header .headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headerImg {
+  height: 60px;
+}
+
+.headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundoVerde {
+  background-color: #13BBB3;
+  padding: 100px;
+}
+.fundoVerde .card {
+  border: none;
+  background: transparent;
+}
+.fundoVerde .card .cardAmarelo {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
+  background-color: #f9a631;
+  border-radius: 10px;
+  margin: 30px;
+}
+<<<<<<< HEAD
 html .diferenciaisImg,
 body .diferenciaisImg {
   width: 120px;
@@ -75,6 +241,23 @@ body .diferenciaisTxt {
 }
 html .contatoTxt,
 body .contatoTxt {
+=======
+.fundoVerde .card .cardAmarelo .diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+.fundoVerde .card .cardAmarelo .diferenciaisTxt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.contatoTxt {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   letter-spacing: 2px;
   line-height: 30px;
 }
@@ -82,8 +265,12 @@ html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
+<<<<<<< HEAD
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+=======
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   color: #2F2D2D;
 }
 html .btnParafusaria,
@@ -104,6 +291,7 @@ body footer {
   font-family: "Open Sans";
   padding: 26px 0;
 }
+<<<<<<< HEAD
 html footer #footerMaior .linhaEspacada,
 body footer #footerMaior .linhaEspacada {
   margin: 0;
@@ -114,6 +302,15 @@ body .pFooter {
 }
 html .pFooter p,
 body .pFooter p {
+=======
+footer #footerMaior .linhaEspacada {
+  margin: 0;
+}
+footer .pFooter {
+  text-align: center;
+}
+footer .pFooter p {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
@@ -131,12 +328,19 @@ body #creditosSite {
   color: #2F2D2D;
   padding: 15px 0;
 }
+<<<<<<< HEAD
 html #creditosSite #copyRight,
 body #creditosSite #copyRight {
   justify-content: center;
 }
 html #creditosSite #copyRight p,
 body #creditosSite #copyRight p {
+=======
+#creditosSite #copyRight {
+  justify-content: center;
+}
+#creditosSite #copyRight p {
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
   margin-bottom: 0;
   font-size: 12px;
 }
@@ -169,14 +373,134 @@ body #creditosSite #copyRight p {
     padding-top: 1.5rem;
   }
 }
+<<<<<<< HEAD
+=======
+#whats_botao {
+  background-color: #FF4500;
+  width: 16%;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-left: 80%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+@media (max-width: 1000px) {
+  #whats_botao {
+    display: none;
+  }
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+html #clientesDizem,
+body #clientesDizem {
+  margin-top: 100px;
+}
+html #clientesDizem #containerDepoimentos,
+body #clientesDizem #containerDepoimentos {
+  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/header_parceiros.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 57vh;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
+  height: 170px;
+  width: 700px;
+  background-color: rgba(249, 166, 49, 0.8);
+  padding: 5px 15px;
+}
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote {
+  padding-bottom: 10px;
+}
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
+  color: #FFFFFF;
+}
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer {
+  color: #2F2D2D;
+  font-weight: bold;
+}
+html #Projetos #linhaBotaoCadastrar,
+body #Projetos #linhaBotaoCadastrar {
+  margin-bottom: 25px;
+}
+html #nossosClientes #logosClientes,
+body #nossosClientes #logosClientes {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+#linhaEspecial {
+  margin-bottom: 25px;
+}
+
+.containerAmarelo {
+  background-color: #F9A631;
+  padding: 10px 0;
+}
+
+@media (max-width: 508px) {
+  html h2,
+body h2 {
+    font-size: 1.5rem;
+  }
+  html h4,
+body h4 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  html p,
+body p {
+    font-size: 13px;
+  }
+  html #clientesDizem #containerDepoimentos,
+body #clientesDizem #containerDepoimentos {
+    height: 68vh;
+  }
+  html #clientesDizem #containerDepoimentos #conteudoCarrossel,
+body #clientesDizem #containerDepoimentos #conteudoCarrossel {
+    height: 247px;
+    width: 200px;
+  }
+  html #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote,
+body #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote {
+    font-size: 13px;
+  }
+  html #Projetos .linhaEspacada,
+body #Projetos .linhaEspacada {
+    margin: 20px 0;
+  }
+}
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e
 #nossosProdutos {
   margin-top: 110px;
   margin-bottom: 30px;
 }
-
+#fazerPedido .linhaEspacada .logoPedido {
+  text-align: right;
+}
+#fazerPedido .linhaEspacada .numeroContato {
+  text-align: left;
+}
 #fazerPedido .btn {
   background-color: #cbc8c8;
   color: #2F2D2D;
+  font-weight: bold;
 }
 
 .containerAmarelo {
@@ -225,3 +549,45 @@ body #creditosSite #copyRight p {
   font-size: 16px;
   padding: 16px 32px;
 }
+<<<<<<< HEAD
+=======
+
+body .carousel-indicators li {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  background-color: #404040;
+}
+body #loja h2 {
+  text-align: center;
+}
+body #loja p {
+  letter-spacing: 1px;
+  line-height: 35px;
+  font-size: 18px;
+  text-align: left;
+}
+
+#flavia h2 {
+  padding: 25px 0;
+  text-align: center;
+  font-size: 40px;
+}
+#flavia #fotoFlavia {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 10px;
+}
+#flavia p {
+  letter-spacing: 1px;
+  line-height: 35px;
+  font-size: 18px;
+  text-align: left;
+}
+#flavia .fotosAvo {
+  padding: 25px;
+}
+#flavia .fotosAvo img {
+  border-radius: 10px;
+}
+>>>>>>> d1f901ed97e2c59e2aa635407cffc7c553b7ee6e

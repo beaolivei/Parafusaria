@@ -76,6 +76,37 @@ body{
         width: 120px;
         padding: 20px 0
     }
+.fundoVerde {
+    background-color: $verde;
+    padding: 100px;
+    .card {
+        // padding: 20px 0;
+        border: none;
+        background: transparent;
+        .cardAmarelo {
+            background-color: $laranja-logo;
+            border-radius: 10px;
+            margin: 30px;
+            .diferenciaisImg {
+                width: 120px;
+                padding: 20px 0
+            }
+            .diferenciaisTxt {
+                font-family: $fonte-padrao;
+                font-weight: bold;
+            }
+        }
+    }
+ 
+}
+
+.card {
+    border: none;
+    background: transparent;
+}
+
+
+
 
     .diferenciaisTxt {
         font-family: $fonte-padrao;
@@ -135,12 +166,14 @@ body{
         }
     }
 
-    .linhaEspacada {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 10px 0;
-    }
+
+
+.linhaEspacada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
 
     #creditosSite {
         background-color: $cinza-claro;
@@ -191,4 +224,24 @@ body{
     #colunaIcones {
         padding-top: 1.5rem;
     }
+}
+//Botão Flutuante para Whatsapp
+#whats_botao {
+    background-color: #FF4500;
+    width: 16%;
+    text-align: center;
+    font-family: $fonte-padrao;
+    margin-left: 80%;
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    z-index: 1;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    padding: 8px;
+    @media (max-width: 1000px) {
+        display: none;
+    
+    }
+
 }
