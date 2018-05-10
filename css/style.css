@@ -9,8 +9,7 @@
 header {
   margin-top: 80px;
 }
-
-.headerDescricao {
+header .headerDescricao {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,24 +19,20 @@ header {
   background-color: #13BBB3;
   padding: 100px;
 }
-
-.card {
+.fundoVerde .card {
   border: none;
   background: transparent;
 }
-
-.cardAmarelo {
+.fundoVerde .card .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
-
-.diferenciaisImg {
+.fundoVerde .card .cardAmarelo .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
-
-.diferenciaisTxt {
+.fundoVerde .card .cardAmarelo .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
 }
@@ -66,11 +61,10 @@ footer {
 footer #footerMaior .linhaEspacada {
   margin: 0;
 }
-
-.pFooter {
+footer .pFooter {
   text-align: center;
 }
-.pFooter p {
+footer .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
