@@ -1,49 +1,64 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Quem Somos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="./CSS/style.css" /> 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>    
-    
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+
 </head>
 
 <body>
+    <!-- Nav -->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #F9A631">
-            <div class="container">
-                <img src="img/parafusia_black.png" style="height: 80px">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">QUEM SOMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PRODUTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">PARCEIROS E PROJETOS</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container">
+            <img src="img/parafusaria.png" style="height: 80px">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="quem_somos.html">QUEM SOMOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="produtos.html">PRODUTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parceiros_e_projetos.html">PARCEIROS E PROJETOS</a>
+                    </li>
+                </ul>
             </div>
+        </div>
     </nav>
-    
+
+    <!-- Banner -->
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <div id="banner" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                                <li data-target="#banner" data-slide-to="0" class="active"></li>
+                                <li data-target="#banner" data-slide-to="1"></li>
+                                <li data-target="#banner" data-slide-to="2"></li>
+                              </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src="https://placehold.it/1350x300" alt="">
@@ -74,40 +89,104 @@
             </div>
         </div>
     </div>
-    
-    <div class="container" id="sobre">
-        <div id="loja">
-            <div class="row">
-                <h2>Historia da Parafusaria</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, iure! Eum cumque, quaerat fugit itaque qui cupiditate dolore dolorum atque, consequuntur aperiam ducimus velit dolorem nihil minus quam dolor ullam.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, iure! Eum cumque, quaerat fugit itaque qui cupiditate dolore dolorum atque, consequuntur aperiam ducimus velit dolorem nihil minus quam dolor ullam.</p>
-            </div>
-        </div>
 
-        <div id="flavia">
-            <h2>Sobre a Flávia Mendes</h2>
-            <div class="row d-block text-center">
-                <img class="rounded-circle" src="https://placehold.it/200x200" alt="">
-            </div>
-            <div class="row">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cupiditate, repellendus neque eveniet voluptatem at, suscipit similique sit dolor, quaerat repudiandae aspernatur ratione doloremque? Reiciendis repellendus ab totam aliquam possimus?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci cupiditate, repellendus neque eveniet voluptatem at, suscipit similique sit dolor, quaerat repudiandae aspernatur ratione doloremque? Reiciendis repellendus ab totam aliquam possimus?</p>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="https://placehold.it/285x200" alt="">
+    <!-- Loja -->
+    <div class="container" id="sobre">
+
+        <section id="historia" class="container">
+
+            <div id="loja">
+                <h2>Historia da Parafusaria</h2>
+                <div class="row d-block text-center">
+                    <p>A parafusaria nasceu em março de 2017. A ideia é ser mais do que uma loja, mas um centro de apoio a todos
+                        os que buscam fazer suas obras ou reparos com segurança, qualidade e responsabilidade. Que querem
+                        a certeza de ver na realidade tudo o que estava no papel. </p>
+                        <br>
+                    <p> Um empreendimento administrado por uma mulher de 40 anos, com a proposta de inovar e se diferenciar por
+                        meio de um atendimento exclusivo e personalizado, que busca novos materiais que ofereçam comodidade
+                        e eficiência a todos os profissionais do setor da construção civil. Uma loja que atende com a mesma
+                        qualidade desde os serviços mais básicos e corriqueiros do dia a dia aos projetos mais complexos. O
+                        resultado fala por si: em um ano, a Parafusaria coleciona clientes satisfeitos e conseguiu estabelecer
+                        sólidas parcerias que abriram portas para participação em projetos sociais, mostras de decoração
+                        e outros eventos.</p>
+                        <br>
+                    <p> Porque nós da Parafusaria sabemos que trabalhar com material para construção é mais do que ajudar a construir
+                        e reformar. É tornar possível a concretização de sonhos, tijolo por tijolo, parafuso por parafuso.</p>
                 </div>
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="https://placehold.it/285x200" alt="">
+            </div>
+        </section>
+
+        <section class="container">
+            <div id="flavia">
+                <h2>Sobre a Flávia Mendes</h2>
+                <div class="row d-block text-center">
+                    <img id="fotoFlavia" src=".\./img/flavia_fotoperfil.jpg" alt="Fávia Mendes">
                 </div>
-                <div class="col-lg-4">
-                    <img class="img-fluid" src="https://placehold.it/285x200" alt="">
+                <div class="row">
+                    <p>Sou Flávia Mendes, esposa, mãe e uma mulher criada para ser feliz,
+                        fazendo o que eu quisesse, independente de rótulos. Foi assim que
+                        ingressei em um ramo pouco explorado por mulheres: o da construção civil.</p>
+                        <br>
+                    <p>Sempre tive paixão por ferramentas, um sentimento que me acompanha
+                        há anos, desde quando, ainda criança, visitava a oficina do meu avô e me
+                        maravilhava com tudo o que ele conseguia criar com aquelas peças.</p>
+                        <br>
+                    <p>O tempo passou e aprendi que cada pessoa tem suas próprias
+                        ferramentas, que são capazes de construir grandes sonhos e projetos.
+                        Mas as minhas preferidas continuavam sendo aquelas, as do meu avô.</p>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 fotosAvo">
+                        <img class="img-fluid" src="./img/old_tools2_withfilter.jpg" alt="fotos das ferramentas antigas do avô de Flávia">
+                    </div>
+                    <div class="col-lg-6 fotosAvo">
+                        <img class="img-fluid" src="./img/old_tools4_withfilter.jpg" alt="fotos das ferramentas antigas do avô de Flávia">
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     </div>
 
+    <!-- FOOTER -->
+    <footer>
+        <div id="footerMaior" class="container">
+            <div class="row linhaEspacada">
+                <div class="col-lg-4 d-inline-block text-center">
+                    <img src="./img/logo atualizado PNG.png" alt="logo da Parafusaria" class="logo w-25">
+                </div>
+                <div class="pFooter col-lg-4">
+                    <p>Rua Leonardo Roitman, 26</p>
+                    <p>Vila Matias | Santos-SP</p>
+                    <p>Telefone: (13) 3394-9476</p>
+                    <p>Celular: (13) 99715-4549</p>
+                </div>
+                <div id="colunaIcones" class="col-lg-4">
+                    <div class="row linhaEspacada">
+                        <a href="https://www.facebook.com/loja.parafusaria/" target="_blank">
+                            <img class="icone" src="./img/facebook.png" alt="icone Facebook">
+                        </a>
 
-<script src="main.js"></script>
+                        <a href="https://www.instagram.com/loja.parafusaria/" target="_blank">
+                            <img class="icone" src="./img/instagram.png" alt="icone Instagram">
+                        </a>
+
+                        <a href="https://bit.ly/2I8FcRF" target="_blank">
+                            <img class="icone" src="./img/whatsapp.png" alt="icone Whatsapp">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <section id="creditosSite" class="d-block text-center w-100 m-0">
+        <div class="container px-0">
+            <div id="copyRight" class="row">
+                <p>Desenvolvido pelas alunas da {reprograma} © 2018</p>
+            </div>
+        </div>
+    </section>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
