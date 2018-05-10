@@ -10,6 +10,10 @@ header {
   margin-top: 80px;
 }
 
+.headerImg {
+  height: 60px;
+}
+
 .headerDescricao {
   display: flex;
   flex-direction: column;
@@ -47,7 +51,12 @@ header {
   line-height: 30px;
 }
 
-.contatoBtn {
+ 
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
+  color: #2F2D2D;
+}
+
+.btnParafusaria {
   color: #2F2D2D;
   background-color: #f9a631;
 }
