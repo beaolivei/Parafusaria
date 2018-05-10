@@ -3,12 +3,12 @@ body {
         h2 {
             padding: 25px 0;
             text-align: center;
-            font-size: 40px 
+            font-size: 40px; 
         }
 
         p{
-            letter-spacing: 2px;
-            line-height: 50px;
+            letter-spacing: 1px;
+            line-height: 35px;
             font-size: 18px;
         }
 
@@ -16,11 +16,10 @@ body {
             #historia {
                 text-align: center;
             }
-        }
-
-        
+        }        
     }
 }
+
 #flavia {
 
     #fotoFlavia {
@@ -34,14 +33,18 @@ body {
         font-size: 40px 
     }
     p{
-        letter-spacing: 2px;
-        line-height: 50px;
+        letter-spacing: 1px;
+        line-height: 35px;
         font-size: 18px;
         text-align: center;
+        padding: 0 -100px;
     }
 
     .fotosAvo {
         padding: 25px;
+        img {
+            border-radius: 10px;
+        }
     }
 }
 
