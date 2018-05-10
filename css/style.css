@@ -10,6 +10,10 @@ header {
   margin-top: 80px;
 }
 
+.headerImg {
+  height: 60px;
+}
+
 .headerDescricao {
   display: flex;
   flex-direction: column;
@@ -45,6 +49,10 @@ header {
 .contatoTxt {
   letter-spacing: 2px;
   line-height: 30px;
+}
+
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+  background-color: #13BBB3;
 }
 
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
@@ -112,9 +120,7 @@ footer #footerMaior .linhaEspacada {
     padding-top: 1.5rem;
   }
 }
-<<<<<<< HEAD
-/*# sourceMappingURL=style.css.map */
-=======
+
 #nossosProdutos {
   margin-top: 110px;
   margin-bottom: 30px;
@@ -142,12 +148,12 @@ footer #footerMaior .linhaEspacada {
   display: block;
   width: 100%;
   height: auto;
-  transition: 0.5s ease;
+  transition: .5s ease;
   backface-visibility: hidden;
 }
 
 .middle {
-  transition: 0.5s ease;
+  transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -171,4 +177,4 @@ footer #footerMaior .linhaEspacada {
   font-size: 16px;
   padding: 16px 32px;
 }
->>>>>>> 90650d1d75056fefb18f665b0152b9631d80db41
+/*# sourceMappingURL=style.css.map */

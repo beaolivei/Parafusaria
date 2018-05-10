@@ -65,10 +65,13 @@ header {
     line-height: 30px;
 }
 
-// ESTE TRECHO FUNCIONA PARA QUANDO PASSAR O MOUSE NO BOTÃO A COR DA PALAVRA NÃO MUDAR!
+
 .contatoSecao {
     .contatoLinha {
         .contatoCadastro {
+            .btnParafusaria:hover {
+                background-color: $verde;
+            }
             .btnParafusaria {
                 color: $cinza-escuro;
             }
