@@ -51,7 +51,10 @@ header {
   line-height: 30px;
 }
 
- 
+.contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
+  background-color: #13BBB3;
+}
+
 .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
