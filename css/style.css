@@ -120,6 +120,113 @@ footer #footerMaior .linhaEspacada {
     padding-top: 1.5rem;
   }
 }
+* {
+  font-family: "Open Sans";
+}
+
+.navbar {
+  background-color: #f9a631;
+}
+
+header {
+  margin-top: 80px;
+}
+
+.headerDescricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundoVerde {
+  background-color: #13BBB3;
+  padding: 100px;
+}
+
+.card {
+  border: none;
+  background: transparent;
+}
+
+.cardAmarelo {
+  background-color: #f9a631;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+
+.diferenciaisTxt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+.contatoTxt {
+  letter-spacing: 2px;
+  line-height: 30px;
+}
+
+.contatoBtn {
+  color: #2F2D2D;
+  background-color: #f9a631;
+}
+
+.icone {
+  width: 34px;
+  height: 23px;
+  padding: 0 5px;
+}
+
+footer {
+  background-color: #cbc8c8;
+  font-family: "Open Sans";
+  padding: 26px 0;
+}
+footer #footerMaior .linhaEspacada {
+  margin: 0;
+}
+
+.pFooter {
+  text-align: center;
+}
+.pFooter p {
+  font-size: 13px;
+  line-height: 17px;
+  margin-bottom: 0;
+}
+
+.linhaEspacada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#creditosSite {
+  background-color: #ededed;
+  color: #2F2D2D;
+  padding: 15px 0;
+}
+#creditosSite #copyRight {
+  justify-content: center;
+}
+#creditosSite #copyRight p {
+  margin-bottom: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 990px) {
+  .logo {
+    margin-bottom: 15px;
+  }
+
+  #colunaIcones {
+    padding-top: 1.5rem;
+  }
+}
 html,
 body {
   overflow-x: hidden;
@@ -142,7 +249,8 @@ html #clientesDizem #carrosselDepoimentos #conteudoCarrossel,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
   height: 170px;
   width: 700px;
-  background-color: #F9A631;
+  background-color: rgba(249, 166, 49, 0.8);
+  padding: 5px 15px;
 }
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote {
@@ -151,6 +259,11 @@ body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item bloc
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
   color: #FFFFFF;
+}
+html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer,
+body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer {
+  color: #2F2D2D;
+  font-weight: bold;
 }
 html #Projetos #linhaBotaoCadastrar,
 body #Projetos #linhaBotaoCadastrar {
@@ -170,6 +283,39 @@ body #Projetos #linhaBotaoCadastrar {
 .containerAmarelo {
   background-color: #F9A631;
   padding: 10px 0;
+}
+
+@media (max-width: 508px) {
+  html h2,
+body h2 {
+    font-size: 1.5rem;
+  }
+  html h4,
+body h4 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  html p,
+body p {
+    font-size: 13px;
+  }
+  html #clientesDizem #containerDepoimentos,
+body #clientesDizem #containerDepoimentos {
+    height: 68vh;
+  }
+  html #clientesDizem #containerDepoimentos #conteudoCarrossel,
+body #clientesDizem #containerDepoimentos #conteudoCarrossel {
+    height: 247px;
+    width: 200px;
+  }
+  html #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote,
+body #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote {
+    font-size: 13px;
+  }
+  html #Projetos .linhaEspacada,
+body #Projetos .linhaEspacada {
+    margin: 20px 0;
+  }
 }
 
 #nossosProdutos {
