@@ -51,8 +51,11 @@ body {
   }
 
   #nossosClientes {
-    .logosClientes {
+    #logosClientes {
+      display: flex;
+      align-items: center;
       justify-content: space-evenly;
+      margin: 10px 0;
     }
   }
 }
@@ -61,16 +64,11 @@ body {
   margin-bottom: 25px;
 }
 
-// .linhaEspacada {
-//     align-items: center;
-//     justify-content: space-evenly;
-//     margin: 50px 0;
-// }
-
 .containerAmarelo {
-    background-color: #F9A631;
-    padding: 10px 0;
+  background-color: #F9A631;
+  padding: 10px 0;
 }
+
 
 @media (max-width: 508px) {
   html,
