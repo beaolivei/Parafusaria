@@ -6,14 +6,17 @@ html,
 body {
   overflow-x: hidden;
 }
+
 html .navbar,
 body .navbar {
   background-color: #f9a631;
 }
+
 html header,
 body header {
   margin-top: 80px;
 }
+
 html header .header-home,
 body header .header-home {
   background-image: url(../img/pexels02.jpeg);
@@ -24,10 +27,12 @@ body header .header-home {
   justify-content: center;
   align-items: center;
 }
+
 html header .header-home .card-img-overlay,
 body header .header-home .card-img-overlay {
   position: static;
 }
+
 html header .header-home .headerDescricao,
 body header .header-home .headerDescricao {
   padding: 40px;
@@ -35,89 +40,106 @@ body header .header-home .headerDescricao {
   height: 305px;
   background-color: rgba(249, 166, 49, 0.8);
 }
+
 html header .header-home .headerDescricao h1,
 body header .header-home .headerDescricao h1 {
   font-size: xx-large;
   font-weight: bold;
   color: black;
 }
+
 html header .header-home .headerDescricao p,
 body header .header-home .headerDescricao p {
   color: black;
   font-weight: bold;
   max-width: 400px;
 }
+
 html .fundoVerde,
 body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+
 html .card,
 body .card {
   border: none;
   background: transparent;
 }
+
 html .cardAmarelo,
 body .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+
 html .diferenciaisImg,
 body .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
+
 html .diferenciaisTxt,
 body .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
 }
+
 html .contatoTxt,
 body .contatoTxt {
   letter-spacing: 2px;
   line-height: 30px;
 }
+
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
+
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
+
 html .btnParafusaria,
 body .btnParafusaria {
   color: #2F2D2D;
   font-weight: bold;
   background-color: #f9a631;
 }
+
 html .icone,
 body .icone {
   width: 34px;
   height: 23px;
   padding: 0 5px;
 }
+
 html footer,
 body footer {
   background-color: #cbc8c8;
   font-family: "Open Sans";
   padding: 26px 0;
 }
+
 html footer #footerMaior .linhaEspacada,
 body footer #footerMaior .linhaEspacada {
   margin: 0;
 }
+
 html .pFooter,
 body .pFooter {
   text-align: center;
 }
+
 html .pFooter p,
 body .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
 }
+
 html .linhaEspacada,
 body .linhaEspacada {
   display: flex;
@@ -125,16 +147,19 @@ body .linhaEspacada {
   justify-content: center;
   margin: 10px 0;
 }
+
 html #creditosSite,
 body #creditosSite {
   background-color: #ededed;
   color: #2F2D2D;
   padding: 15px 0;
 }
+
 html #creditosSite #copyRight,
 body #creditosSite #copyRight {
   justify-content: center;
 }
+
 html #creditosSite #copyRight p,
 body #creditosSite #copyRight p {
   margin-bottom: 0;
@@ -160,12 +185,34 @@ body #creditosSite #copyRight p {
     padding: 0 10px 15px 10px;
   }
 }
+
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
   }
-
   #colunaIcones {
     padding-top: 1.5rem;
   }
 }
+
+#whats_botao {
+  background-color: rgba(255, 69, 0, 0.9);
+  width: 12%;
+  text-align: center;
+  font-family: "Open Sans";
+  margin-left: 80%;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  padding: 8px;
+}
+
+@media (max-width: 1000px) {
+  #whats_botao {
+    display: none;
+  }
+}
+/*# sourceMappingURL=home.css.map */
