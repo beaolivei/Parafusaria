@@ -109,10 +109,16 @@ footer #footerMaior .linhaEspacada {
   margin-top: 110px;
   margin-bottom: 30px;
 }
-
+#fazerPedido .linhaEspacada .logoPedido {
+  text-align: right;
+}
+#fazerPedido .linhaEspacada .numeroContato {
+  text-align: left;
+}
 #fazerPedido .btn {
   background-color: #cbc8c8;
   color: #2F2D2D;
+  font-weight: bold;
 }
 
 .containerAmarelo {
