@@ -329,6 +329,10 @@ body #Projetos .linhaEspacada {
   margin-top: 110px;
   margin-bottom: 30px;
 }
+#nossosProdutos .row .containerOverlay {
+  margin-bottom: 10px;
+}
+
 #fazerPedido .linhaEspacada .logoPedido {
   text-align: right;
 }
@@ -388,6 +392,11 @@ body #Projetos .linhaEspacada {
   padding: 16px 32px;
 }
 
+@media (max-width: 360px) {
+  #fazerPedido .btn {
+    width: 80%;
+  }
+}
 body .carousel-indicators li {
   border-radius: 12px;
   width: 12px;
@@ -400,8 +409,8 @@ body #historia h2 {
   font-size: 40px;
 }
 body #historia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
 }
 body #historia #loja #historia {
@@ -419,8 +428,8 @@ body #historia #loja #historia {
   font-size: 40px;
 }
 #flavia p {
-  letter-spacing: 2px;
-  line-height: 50px;
+  letter-spacing: 1px;
+  line-height: 35px;
   font-size: 18px;
   text-align: center;
   padding: 0 -100px;
