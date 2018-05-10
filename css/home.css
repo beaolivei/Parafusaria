@@ -80,6 +80,43 @@ body .diferenciaisImg {
   padding: 20px 0;
 }
 
+html .fundoVerde,
+body .fundoVerde {
+  background-color: #13BBB3;
+  padding: 100px;
+}
+
+html .fundoVerde .card,
+body .fundoVerde .card {
+  border: none;
+  background: transparent;
+}
+
+html .fundoVerde .card .cardAmarelo,
+body .fundoVerde .card .cardAmarelo {
+  background-color: #f9a631;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+html .fundoVerde .card .cardAmarelo .diferenciaisImg,
+body .fundoVerde .card .cardAmarelo .diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+
+html .fundoVerde .card .cardAmarelo .diferenciaisTxt,
+body .fundoVerde .card .cardAmarelo .diferenciaisTxt {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+html .card,
+body .card {
+  border: none;
+  background: transparent;
+}
+
 html .diferenciaisTxt,
 body .diferenciaisTxt {
   font-family: "Open Sans";

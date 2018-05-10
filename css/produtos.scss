@@ -3,12 +3,31 @@
 #nossosProdutos {
     margin-top: 110px;
     margin-bottom: 30px;
+
+    .row {
+        .containerOverlay {
+            // TODO COLOCAR UM FILTRO NA IMG
+            // .filtroColorido {
+            //     color: rgba(145, 139, 139, 0.45);
+            }
+        }
 }
 
 #fazerPedido {
+    .linhaEspacada {
+        .logoPedido {
+            text-align: right;
+        }
+
+        .numeroContato {
+            text-align: left
+        }
+    }
+
     .btn {
         background-color: $cinza-footer;
         color: $cinza-escuro;
+        font-weight: bold;
     }
 }
 

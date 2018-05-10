@@ -1,0 +1,108 @@
+@import 'home';
+
+html,
+body {
+  overflow-x: hidden;
+
+  #clientesDizem {
+    margin-top: 100px;
+
+    #containerDepoimentos {
+      background-image:  linear-gradient(
+        rgba(145, 139, 139, 0.45), 
+        rgba(110, 106, 106, 0.45)
+      ), url(../img/header_parceiros.jpeg);
+      background-size: cover;
+      background-position: center center;
+      height: 57vh;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+    }
+
+    #carrosselDepoimentos {
+
+      #conteudoCarrossel {
+        height: 170px;
+        width: 700px;
+        background-color: rgba(249,166,49, 0.8);
+        padding: 5px 15px;
+        .carousel-item {
+
+          blockquote {
+            padding-bottom: 10px;
+            p {
+              color: #FFFFFF;
+            }
+            .blockquote-footer {
+              color: $cinza-escuro;
+              font-weight: bold;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #Projetos {
+    #linhaBotaoCadastrar {
+      margin-bottom: 25px;
+    }
+  }
+
+  #nossosClientes {
+    #logosClientes {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin: 10px 0;
+    }
+  }
+}
+
+#linhaEspecial {
+  margin-bottom: 25px;
+}
+
+.containerAmarelo {
+  background-color: #F9A631;
+  padding: 10px 0;
+}
+
+
+@media (max-width: 508px) {
+  html,
+  body {
+    h2 {
+      font-size: 1.5rem;
+    }
+    h4 {
+      font-size: 20px;
+      margin-top: 8px;
+    }
+    p {
+      font-size: 13px;
+    }
+
+    #clientesDizem {
+      #containerDepoimentos {
+        height: 68vh;
+
+        #conteudoCarrossel {
+          height: 247px;
+          width: 200px;
+
+          blockquote {
+            font-size: 13px;
+          }
+        }
+      }
+    }
+
+    #Projetos {
+      .linhaEspacada {
+        margin: 20px 0;
+      }
+    }
+  }
+}
