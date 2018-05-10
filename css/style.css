@@ -438,6 +438,19 @@ body #Projetos .linhaEspacada {
   padding: 16px 32px;
 }
 
+body #headerQuemSomos {
+  margin-top: 0;
+}
+body #headerQuemSomos #banner {
+  margin: 0;
+  width: 100%;
+}
+body #headerQuemSomos #banner .carousel-item img {
+  height: 75vh;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+}
 body .carousel-indicators li {
   border-radius: 12px;
   width: 12px;
@@ -445,7 +458,9 @@ body .carousel-indicators li {
   background-color: #404040;
 }
 body #loja h2 {
+  padding: 25px 0;
   text-align: center;
+  font-size: 40px;
 }
 body #loja p {
   letter-spacing: 1px;
@@ -460,9 +475,8 @@ body #loja p {
   font-size: 40px;
 }
 #flavia #fotoFlavia {
-  max-width: 30%;
-  max-height: 30%;
-  border-radius: 10px;
+  width: 55%;
+  padding-bottom: 25px;
 }
 #flavia p {
   letter-spacing: 1px;
@@ -473,6 +487,12 @@ body #loja p {
 #flavia .fotosAvo {
   padding: 25px;
 }
-#flavia .fotosAvo img {
-  border-radius: 10px;
+
+@media (max-width: 991px) {
+  body #headerQuemSomos #banner .carousel-item img {
+    height: 65vh;
+  }
+  body #flavia #fotoFlavia {
+    width: 100%;
+  }
 }
