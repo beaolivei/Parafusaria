@@ -6,7 +6,8 @@
 
     .row {
         .containerOverlay {
-            // TODO COLOCAR UM FILTRO NA IMG
+            margin-bottom: 10px;
+            // TO-DO COLOCAR UM FILTRO NA IMG
             // .filtroColorido {
             //     color: rgba(145, 139, 139, 0.45);
             }
@@ -20,7 +21,7 @@
         }
 
         .numeroContato {
-            text-align: left
+            text-align: left;
         }
     }
 
@@ -77,4 +78,14 @@ padding: 20px 0;
     color: #2F2D2D;
     font-size: 16px;
     padding: 16px 32px;
+}
+
+// MEDIA QUERIES
+
+@media (max-width: 360px) {
+    #fazerPedido {
+        .btn {
+            width: 80%;
+        }
+    }
 }
