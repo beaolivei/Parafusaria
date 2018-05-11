@@ -495,7 +495,7 @@ body #clientesDizem #containerDepoimentos {
   height: 57vh;
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: center;
 }
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
@@ -517,9 +517,17 @@ body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item bloc
   color: #2F2D2D;
   font-weight: bold;
 }
+html #Projetos .linhaEspacada .colunaProjetos .btnParafusaria:hover,
+body #Projetos .linhaEspacada .colunaProjetos .btnParafusaria:hover {
+  background-color: #13BBB3;
+}
 html #Projetos #linhaBotaoCadastrar,
 body #Projetos #linhaBotaoCadastrar {
   margin-bottom: 25px;
+}
+html #Projetos #linhaBotaoCadastrar .btnParafusaria:hover,
+body #Projetos #linhaBotaoCadastrar .btnParafusaria:hover {
+  background-color: #13BBB3;
 }
 html #nossosClientes #logosClientes,
 body #nossosClientes #logosClientes {
@@ -555,7 +563,7 @@ body p {
   }
   html #clientesDizem #containerDepoimentos,
 body #clientesDizem #containerDepoimentos {
-    height: 72vh;
+    height: 60vh;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel,
 body #clientesDizem #containerDepoimentos #conteudoCarrossel {
