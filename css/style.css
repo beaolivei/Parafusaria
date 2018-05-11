@@ -541,16 +541,24 @@ body #Projetos .linhaEspacada {
   margin-bottom: 10px;
 }
 
+#fazerPedido h2, #fazerPedido p {
+  letter-spacing: 2px;
+  line-height: 20px;
+}
 #fazerPedido .linhaEspacada .logoPedido {
   text-align: right;
 }
 #fazerPedido .linhaEspacada .numeroContato {
   text-align: left;
 }
+#fazerPedido .btnFazerPedido:hover {
+  background-color: #ededed;
+}
 #fazerPedido .btn {
-  background-color: #cbc8c8;
+  background-color: #13BBB3;
   color: #2F2D2D;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .containerAmarelo {
@@ -600,7 +608,7 @@ body #Projetos .linhaEspacada {
   padding: 16px 32px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 720px) {
   #fazerPedido .btn {
     width: 80%;
   }
@@ -629,7 +637,7 @@ body #loja h2 {
   text-align: center;
   font-size: 40px;
 }
-body #historia p {
+body #loja p {
   letter-spacing: 1px;
   line-height: 35px;
   font-size: 18px;
