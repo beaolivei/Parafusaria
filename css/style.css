@@ -191,6 +191,12 @@ body #creditosSite #copyRight p {
     padding: 0 10px 15px 10px;
   }
 }
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+    height: 227px;
+  }
+}
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
@@ -411,6 +417,12 @@ body #creditosSite #copyRight p {
   .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard .cardAmarelo {
     margin: 0 0 30px 0;
     padding: 0 10px 15px 10px;
+  }
+}
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+    height: 227px;
   }
 }
 @media (max-width: 990px) {

@@ -221,6 +221,9 @@ body #creditosSite #copyRight p {
     margin: 0 0 30px 0;
     padding: 0 10px 15px 10px;
   }
+  header .header-home .headerDescricao {
+    height: 227px;
+  }
 }
 
 @media (max-width: 990px) {
