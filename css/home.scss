@@ -190,7 +190,7 @@ body{
     }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 300px) {
     .fundoVerde {
         .diferenciaisContainer {
             margin: 0;
@@ -240,4 +240,9 @@ body{
     
     }
 
+}
+.link_whatsapp{
+    @media (max-width: 500px) {
+        display: none;
+    }
 }
