@@ -15,6 +15,10 @@
 }
 
 #fazerPedido {
+    h2, p {
+        letter-spacing: 2px;
+        line-height: 20px;    
+    }
     .linhaEspacada {
         .logoPedido {
             text-align: right;
@@ -25,13 +29,16 @@
         }
     }
 
+    .btnFazerPedido:hover {
+        background-color: $cinza-claro;
+    }
     .btn {
-        background-color: $cinza-footer;
+        background-color: $verde;
         color: $cinza-escuro;
         font-weight: bold;
+        margin-bottom: 10px;
     }
 }
-
 
 .containerAmarelo {
 background-color: #F9A631;
@@ -82,10 +89,11 @@ padding: 20px 0;
 
 // MEDIA QUERIES
 
-@media (max-width: 360px) {
+@media (max-width: 720px) {
     #fazerPedido {
         .btn {
             width: 80%;
         }
     }
 }
+

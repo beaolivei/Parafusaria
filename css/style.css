@@ -171,6 +171,10 @@ body #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
 }
+html #creditosSite #copyRight p a,
+body #creditosSite #copyRight p a {
+  color: #7d459a;
+}
 
 @media (min-width: 300px) {
   .fundoVerde .diferenciaisContainer {
@@ -191,6 +195,13 @@ body #creditosSite #copyRight p {
     padding: 0 10px 15px 10px;
   }
 }
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+    height: 227px;
+  }
+}
+
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
@@ -399,6 +410,10 @@ body #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
 }
+html #creditosSite #copyRight p a,
+body #creditosSite #copyRight p a {
+  color: #7d459a;
+}
 
 @media (min-width: 300px) {
   .fundoVerde .diferenciaisContainer {
@@ -417,6 +432,12 @@ body #creditosSite #copyRight p {
   .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard .cardAmarelo {
     margin: 0 0 30px 0;
     padding: 0 10px 15px 10px;
+  }
+}
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+    height: 227px;
   }
 }
 @media (max-width: 990px) {
@@ -586,16 +607,25 @@ body #nossosClientes #logosClientes img {
   margin-bottom: 10px;
 }
 
+#fazerPedido h2, #fazerPedido p {
+  letter-spacing: 2px;
+  line-height: 20px;
+}
 #fazerPedido .linhaEspacada .logoPedido {
   text-align: right;
 }
 #fazerPedido .linhaEspacada .numeroContato {
   text-align: left;
 }
+#fazerPedido .btnFazerPedido:hover {
+  background-color: #ededed;
+}
+
 #fazerPedido .btn {
-  background-color: #cbc8c8;
+  background-color: #13BBB3;
   color: #2F2D2D;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .containerAmarelo {
@@ -645,7 +675,7 @@ body #nossosClientes #logosClientes img {
   padding: 16px 32px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 720px) {
   #fazerPedido .btn {
     width: 80%;
   }
@@ -708,3 +738,4 @@ body #loja p {
     width: 100%;
   }
 }
+/*# sourceMappingURL=style.css.map */
