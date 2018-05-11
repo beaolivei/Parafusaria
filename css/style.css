@@ -6,14 +6,17 @@ html,
 body {
   overflow-x: hidden;
 }
+
 html .navbar,
 body .navbar {
   background-color: #f9a631;
 }
+
 html header,
 body header {
   margin-top: 80px;
 }
+
 html header .header-home,
 body header .header-home {
   background-image: url(../img/pexels02.jpeg);
@@ -24,10 +27,12 @@ body header .header-home {
   justify-content: center;
   align-items: center;
 }
+
 html header .header-home .card-img-overlay,
 body header .header-home .card-img-overlay {
   position: static;
 }
+
 html header .header-home .headerDescricao,
 body header .header-home .headerDescricao {
   padding: 40px;
@@ -35,120 +40,143 @@ body header .header-home .headerDescricao {
   height: 305px;
   background-color: rgba(249, 166, 49, 0.8);
 }
+
 html header .header-home .headerDescricao h1,
 body header .header-home .headerDescricao h1 {
   font-size: xx-large;
   font-weight: bold;
   color: black;
 }
+
 html header .header-home .headerDescricao p,
 body header .header-home .headerDescricao p {
   color: black;
   font-weight: bold;
   max-width: 400px;
 }
+
 html .fundoVerde,
 body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+
 html .card,
 body .card {
   border: none;
   background: transparent;
 }
+
 html .cardAmarelo,
 body .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+
 html .diferenciaisImg,
 body .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
+
 html .fundoVerde,
 body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+
 html .fundoVerde .card,
 body .fundoVerde .card {
   border: none;
   background: transparent;
 }
+
 html .fundoVerde .card .cardAmarelo,
 body .fundoVerde .card .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+
 html .fundoVerde .card .cardAmarelo .diferenciaisImg,
 body .fundoVerde .card .cardAmarelo .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
+
 html .fundoVerde .card .cardAmarelo .diferenciaisTxt,
 body .fundoVerde .card .cardAmarelo .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
 }
+
 html .card,
 body .card {
   border: none;
   background: transparent;
 }
+
 html .diferenciaisTxt,
 body .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
 }
+
 html .contatoTxt,
 body .contatoTxt {
   letter-spacing: 2px;
   line-height: 30px;
 }
+
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
+
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
+
 html .btnParafusaria,
 body .btnParafusaria {
   color: #2F2D2D;
   font-weight: bold;
   background-color: #f9a631;
 }
+
 html .icone,
 body .icone {
   width: 34px;
   height: 23px;
   padding: 0 5px;
 }
+
 html footer,
 body footer {
   background-color: #cbc8c8;
   font-family: "Open Sans";
   padding: 26px 0;
 }
+
 html footer #footerMaior .linhaEspacada,
 body footer #footerMaior .linhaEspacada {
   margin: 0;
 }
+
 html .pFooter,
 body .pFooter {
   text-align: center;
 }
+
 html .pFooter p,
 body .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
 }
+
 html .linhaEspacada,
 body .linhaEspacada {
   display: flex;
@@ -156,16 +184,19 @@ body .linhaEspacada {
   justify-content: center;
   margin: 10px 0;
 }
+
 html #creditosSite,
 body #creditosSite {
   background-color: #ededed;
   color: #2F2D2D;
   padding: 15px 0;
 }
+
 html #creditosSite #copyRight,
 body #creditosSite #copyRight {
   justify-content: center;
 }
+
 html #creditosSite #copyRight p,
 body #creditosSite #copyRight p {
   margin-bottom: 0;
@@ -191,15 +222,16 @@ body #creditosSite #copyRight p {
     padding: 0 10px 15px 10px;
   }
 }
+
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
   }
-
   #colunaIcones {
     padding-top: 1.5rem;
   }
 }
+
 #whats_botao {
   background-color: rgba(255, 69, 0, 0.9);
   width: 12%;
@@ -214,6 +246,7 @@ body #creditosSite #copyRight p {
   letter-spacing: 1px;
   padding: 8px;
 }
+
 @media (max-width: 1000px) {
   #whats_botao {
     display: none;
@@ -228,14 +261,17 @@ html,
 body {
   overflow-x: hidden;
 }
+
 html .navbar,
 body .navbar {
   background-color: #f9a631;
 }
+
 html header,
 body header {
   margin-top: 80px;
 }
+
 html header .header-home,
 body header .header-home {
   background-image: url(../img/pexels02.jpeg);
@@ -246,10 +282,12 @@ body header .header-home {
   justify-content: center;
   align-items: center;
 }
+
 html header .header-home .card-img-overlay,
 body header .header-home .card-img-overlay {
   position: static;
 }
+
 html header .header-home .headerDescricao,
 body header .header-home .headerDescricao {
   padding: 40px;
@@ -257,120 +295,143 @@ body header .header-home .headerDescricao {
   height: 305px;
   background-color: rgba(249, 166, 49, 0.8);
 }
+
 html header .header-home .headerDescricao h1,
 body header .header-home .headerDescricao h1 {
   font-size: xx-large;
   font-weight: bold;
   color: black;
 }
+
 html header .header-home .headerDescricao p,
 body header .header-home .headerDescricao p {
   color: black;
   font-weight: bold;
   max-width: 400px;
 }
+
 html .fundoVerde,
 body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+
 html .card,
 body .card {
   border: none;
   background: transparent;
 }
+
 html .cardAmarelo,
 body .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+
 html .diferenciaisImg,
 body .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
+
 html .fundoVerde,
 body .fundoVerde {
   background-color: #13BBB3;
   padding: 100px;
 }
+
 html .fundoVerde .card,
 body .fundoVerde .card {
   border: none;
   background: transparent;
 }
+
 html .fundoVerde .card .cardAmarelo,
 body .fundoVerde .card .cardAmarelo {
   background-color: #f9a631;
   border-radius: 10px;
   margin: 30px;
 }
+
 html .fundoVerde .card .cardAmarelo .diferenciaisImg,
 body .fundoVerde .card .cardAmarelo .diferenciaisImg {
   width: 120px;
   padding: 20px 0;
 }
+
 html .fundoVerde .card .cardAmarelo .diferenciaisTxt,
 body .fundoVerde .card .cardAmarelo .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
 }
+
 html .card,
 body .card {
   border: none;
   background: transparent;
 }
+
 html .diferenciaisTxt,
 body .diferenciaisTxt {
   font-family: "Open Sans";
   font-weight: bold;
 }
+
 html .contatoTxt,
 body .contatoTxt {
   letter-spacing: 2px;
   line-height: 30px;
 }
+
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria:hover {
   background-color: #13BBB3;
 }
+
 html .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria,
 body .contatoSecao .contatoLinha .contatoCadastro .btnParafusaria {
   color: #2F2D2D;
 }
+
 html .btnParafusaria,
 body .btnParafusaria {
   color: #2F2D2D;
   font-weight: bold;
   background-color: #f9a631;
 }
+
 html .icone,
 body .icone {
   width: 34px;
   height: 23px;
   padding: 0 5px;
 }
+
 html footer,
 body footer {
   background-color: #cbc8c8;
   font-family: "Open Sans";
   padding: 26px 0;
 }
+
 html footer #footerMaior .linhaEspacada,
 body footer #footerMaior .linhaEspacada {
   margin: 0;
 }
+
 html .pFooter,
 body .pFooter {
   text-align: center;
 }
+
 html .pFooter p,
 body .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
 }
+
 html .linhaEspacada,
 body .linhaEspacada {
   display: flex;
@@ -378,16 +439,19 @@ body .linhaEspacada {
   justify-content: center;
   margin: 10px 0;
 }
+
 html #creditosSite,
 body #creditosSite {
   background-color: #ededed;
   color: #2F2D2D;
   padding: 15px 0;
 }
+
 html #creditosSite #copyRight,
 body #creditosSite #copyRight {
   justify-content: center;
 }
+
 html #creditosSite #copyRight p,
 body #creditosSite #copyRight p {
   margin-bottom: 0;
@@ -413,15 +477,16 @@ body #creditosSite #copyRight p {
     padding: 0 10px 15px 10px;
   }
 }
+
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
   }
-
   #colunaIcones {
     padding-top: 1.5rem;
   }
 }
+
 #whats_botao {
   background-color: rgba(255, 69, 0, 0.9);
   width: 12%;
@@ -436,6 +501,7 @@ body #creditosSite #copyRight p {
   letter-spacing: 1px;
   padding: 8px;
 }
+
 @media (max-width: 1000px) {
   #whats_botao {
     display: none;
@@ -446,13 +512,20 @@ html,
 body {
   overflow-x: hidden;
 }
+
+html #imagemSecreta,
+body #imagemSecreta {
+  display: none;
+}
+
 html #clientesDizem,
 body #clientesDizem {
   margin-top: 100px;
 }
+
 html #clientesDizem #containerDepoimentos,
 body #clientesDizem #containerDepoimentos {
-  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/header_parceiros.jpeg);
+  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/pexelParceiros.jpeg);
   background-size: cover;
   background-position: center center;
   height: 57vh;
@@ -460,6 +533,7 @@ body #clientesDizem #containerDepoimentos {
   justify-content: center;
   align-items: end;
 }
+
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
   height: 170px;
@@ -467,29 +541,31 @@ body #clientesDizem #carrosselDepoimentos #conteudoCarrossel {
   background-color: rgba(249, 166, 49, 0.8);
   padding: 5px 15px;
 }
+
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote {
   padding-bottom: 10px;
 }
+
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote p {
   color: #FFFFFF;
 }
+
 html #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer,
 body #clientesDizem #carrosselDepoimentos #conteudoCarrossel .carousel-item blockquote .blockquote-footer {
   color: #2F2D2D;
   font-weight: bold;
 }
+
 html #Projetos #linhaBotaoCadastrar,
 body #Projetos #linhaBotaoCadastrar {
   margin-bottom: 25px;
 }
+
 html #nossosClientes #logosClientes,
 body #nossosClientes #logosClientes {
-  display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  margin: 10px 0;
 }
 
 #linhaEspecial {
@@ -501,42 +577,76 @@ body #nossosClientes #logosClientes {
   padding: 10px 0;
 }
 
-@media (max-width: 508px) {
+@media (max-width: 767px) {
+  html #imagemSecreta,
+  body #imagemSecreta {
+    display: initial;
+  }
   html h2,
-body h2 {
+  body h2 {
     font-size: 1.5rem;
   }
   html h4,
-body h4 {
+  body h4 {
     font-size: 20px;
     margin-top: 8px;
   }
   html p,
-body p {
+  body p {
     font-size: 13px;
   }
   html #clientesDizem #containerDepoimentos,
-body #clientesDizem #containerDepoimentos {
-    height: 68vh;
+  body #clientesDizem #containerDepoimentos {
+    height: 72vh;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel,
-body #clientesDizem #containerDepoimentos #conteudoCarrossel {
-    height: 247px;
+  body #clientesDizem #containerDepoimentos #conteudoCarrossel {
+    height: 253px;
     width: 200px;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote,
-body #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote {
+  body #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote {
     font-size: 13px;
   }
   html #Projetos .linhaEspacada,
-body #Projetos .linhaEspacada {
+  body #Projetos .linhaEspacada {
     margin: 20px 0;
   }
+  html #Projetos .linhaEspacada #imagemSumir,
+  body #Projetos .linhaEspacada #imagemSumir {
+    display: none;
+  }
+  html #Projetos .colunaProjetos,
+  body #Projetos .colunaProjetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  html #nossosClientes #logosClientes,
+  body #nossosClientes #logosClientes {
+    flex-direction: column;
+  }
+  html #nossosClientes #logosClientes img,
+  body #nossosClientes #logosClientes img {
+    margin-bottom: 10px;
+  }
 }
+
+@media (min-width: 991px) {
+  #Projetos h2 {
+    margin-bottom: 24px;
+  }
+  #nossosClientes h2 {
+    margin-bottom: 20px;
+  }
+}
+
 #nossosProdutos {
   margin-top: 110px;
   margin-bottom: 30px;
 }
+
 #nossosProdutos .row .containerOverlay {
   margin-bottom: 10px;
 }
@@ -548,12 +658,14 @@ body #Projetos .linhaEspacada {
 #fazerPedido .linhaEspacada .logoPedido {
   text-align: right;
 }
+
 #fazerPedido .linhaEspacada .numeroContato {
   text-align: left;
 }
 #fazerPedido .btnFazerPedido:hover {
   background-color: #ededed;
 }
+
 #fazerPedido .btn {
   background-color: #13BBB3;
   color: #2F2D2D;
@@ -578,12 +690,12 @@ body #Projetos .linhaEspacada {
   display: block;
   width: 100%;
   height: auto;
-  transition: 0.5s ease;
+  transition: .5s ease;
   backface-visibility: hidden;
 }
 
 .middle {
-  transition: 0.5s ease;
+  transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -613,30 +725,36 @@ body #Projetos .linhaEspacada {
     width: 80%;
   }
 }
+
 body #headerQuemSomos {
   margin-top: 0;
 }
+
 body #headerQuemSomos #banner {
   margin: 0;
   width: 100%;
 }
+
 body #headerQuemSomos #banner .carousel-item img {
   height: 75vh;
   object-fit: cover;
   overflow: hidden;
   width: 100%;
 }
+
 body .carousel-indicators li {
   border-radius: 12px;
   width: 12px;
   height: 12px;
   background-color: #404040;
 }
+
 body #loja h2 {
   padding: 25px 0;
   text-align: center;
   font-size: 40px;
 }
+
 body #loja p {
   letter-spacing: 1px;
   line-height: 35px;
@@ -649,16 +767,19 @@ body #loja p {
   text-align: center;
   font-size: 40px;
 }
+
 #flavia #fotoFlavia {
   width: 55%;
   padding-bottom: 25px;
 }
+
 #flavia p {
   letter-spacing: 1px;
   line-height: 35px;
   font-size: 18px;
   text-align: left;
 }
+
 #flavia .fotosAvo {
   padding: 25px;
 }
@@ -671,3 +792,4 @@ body #loja p {
     width: 100%;
   }
 }
+/*# sourceMappingURL=style.css.map */
