@@ -149,6 +149,10 @@ body .pFooter p {
   line-height: 17px;
   margin-bottom: 0;
 }
+html .pFooter #seloB2Mamy,
+body .pFooter #seloB2Mamy {
+  width: 44%;
+}
 html .linhaEspacada,
 body .linhaEspacada {
   display: flex;
@@ -201,7 +205,6 @@ body header .header-home .headerDescricao {
     height: 227px;
   }
 }
-
 @media (max-width: 990px) {
   .logo {
     margin-bottom: 15px;
@@ -387,6 +390,10 @@ body .pFooter p {
   font-size: 13px;
   line-height: 17px;
   margin-bottom: 0;
+}
+html .pFooter #seloB2Mamy,
+body .pFooter #seloB2Mamy {
+  width: 44%;
 }
 html .linhaEspacada,
 body .linhaEspacada {
