@@ -21,7 +21,7 @@ body {
       height: 57vh;
       display: flex;
       justify-content: center;
-      align-items: end;
+      align-items: center;
     }
 
     #carrosselDepoimentos {
@@ -49,8 +49,18 @@ body {
   }
 
   #Projetos {
+    .linhaEspacada {
+      .colunaProjetos {
+        .btnParafusaria:hover {
+          background-color: $verde;
+        }
+      }
+    }
     #linhaBotaoCadastrar {
       margin-bottom: 25px;
+        .btnParafusaria:hover {
+          background-color: $verde;
+        }
     }
   }
 
@@ -91,7 +101,7 @@ body {
 
     #clientesDizem {
       #containerDepoimentos {
-        height: 72vh;
+        height: 60vh;
 
         #conteudoCarrossel {
           height: 253px;
