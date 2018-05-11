@@ -105,6 +105,31 @@ body .fundoVerde .card .cardAmarelo .diferenciaisImg {
   padding: 20px 0;
 }
 
+html .fundoVerde,
+body .fundoVerde {
+  background-color: #13BBB3;
+  padding: 100px;
+}
+
+html .fundoVerde .card,
+body .fundoVerde .card {
+  border: none;
+  background: transparent;
+}
+
+html .fundoVerde .card .cardAmarelo,
+body .fundoVerde .card .cardAmarelo {
+  background-color: #f9a631;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+html .fundoVerde .card .cardAmarelo .diferenciaisImg,
+body .fundoVerde .card .cardAmarelo .diferenciaisImg {
+  width: 120px;
+  padding: 20px 0;
+}
+
 html .fundoVerde .card .cardAmarelo .diferenciaisTxt,
 body .fundoVerde .card .cardAmarelo .diferenciaisTxt {
   font-family: "Open Sans";
@@ -261,6 +286,11 @@ body {
   overflow-x: hidden;
 }
 
+html #imagemSecreta,
+body #imagemSecreta {
+  display: none;
+}
+
 html #clientesDizem,
 body #clientesDizem {
   margin-top: 100px;
@@ -268,7 +298,7 @@ body #clientesDizem {
 
 html #clientesDizem #containerDepoimentos,
 body #clientesDizem #containerDepoimentos {
-  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/header_parceiros.jpeg);
+  background-image: linear-gradient(rgba(145, 139, 139, 0.45), rgba(110, 106, 106, 0.45)), url(../img/pexelParceiros.jpeg);
   background-size: cover;
   background-position: center center;
   height: 57vh;
@@ -308,10 +338,7 @@ body #Projetos #linhaBotaoCadastrar {
 
 html #nossosClientes #logosClientes,
 body #nossosClientes #logosClientes {
-  display: flex;
-  align-items: center;
   justify-content: space-evenly;
-  margin: 10px 0;
 }
 
 #linhaEspecial {
@@ -323,7 +350,11 @@ body #nossosClientes #logosClientes {
   padding: 10px 0;
 }
 
-@media (max-width: 508px) {
+@media (max-width: 767px) {
+  html #imagemSecreta,
+  body #imagemSecreta {
+    display: initial;
+  }
   html h2,
   body h2 {
     font-size: 1.5rem;
@@ -339,11 +370,11 @@ body #nossosClientes #logosClientes {
   }
   html #clientesDizem #containerDepoimentos,
   body #clientesDizem #containerDepoimentos {
-    height: 68vh;
+    height: 72vh;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel,
   body #clientesDizem #containerDepoimentos #conteudoCarrossel {
-    height: 247px;
+    height: 253px;
     width: 200px;
   }
   html #clientesDizem #containerDepoimentos #conteudoCarrossel blockquote,
@@ -353,6 +384,34 @@ body #nossosClientes #logosClientes {
   html #Projetos .linhaEspacada,
   body #Projetos .linhaEspacada {
     margin: 20px 0;
+  }
+  html #Projetos .linhaEspacada #imagemSumir,
+  body #Projetos .linhaEspacada #imagemSumir {
+    display: none;
+  }
+  html #Projetos .colunaProjetos,
+  body #Projetos .colunaProjetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  html #nossosClientes #logosClientes,
+  body #nossosClientes #logosClientes {
+    flex-direction: column;
+  }
+  html #nossosClientes #logosClientes img,
+  body #nossosClientes #logosClientes img {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 991px) {
+  #Projetos h2 {
+    margin-bottom: 24px;
+  }
+  #nossosClientes h2 {
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=parceiros_e_projetos.css.map */
