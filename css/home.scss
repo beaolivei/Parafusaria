@@ -185,12 +185,16 @@ body{
             p {
                 margin-bottom: 0;
                 font-size: 12px;
+                a {
+                   color: #7d459a;
+                }
+
             }
         }
     }
 }
 
-@media (min-width: 320px) {
+@media (min-width: 300px) {
     .fundoVerde {
         .diferenciaisContainer {
             margin: 0;
@@ -205,13 +209,38 @@ body{
                             margin: 0 0 30px 0;
                             padding: 0 10px 15px 10px;
                         }
-
                     }
                 }
             }
         }
     }
 }
+
+// @media (min-width: 320px) {
+//     html,
+//     body {
+//         header {
+//             .header-home {
+//                 .headerDescricao {
+//                     height: 227px;
+//                 }
+//             } 
+//         }  
+//     } 
+// } 
+
+@media (max-width: 508px) {
+    html,
+    body {
+        header {
+            .header-home {
+                .headerDescricao {
+                    height: 227px;
+                }
+            } 
+        }  
+    } 
+} 
 
 @media (max-width: 990px) {
     .logo {
@@ -240,4 +269,9 @@ body{
     
     }
 
+}
+.link_whatsapp{
+    @media (max-width: 500px) {
+        display: none;
+    }
 }
