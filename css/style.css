@@ -149,6 +149,10 @@ body .pFooter p {
   line-height: 17px;
   margin-bottom: 0;
 }
+html .pFooter #seloB2Mamy,
+body .pFooter #seloB2Mamy {
+  width: 44%;
+}
 html .linhaEspacada,
 body .linhaEspacada {
   display: flex;
@@ -171,8 +175,12 @@ body #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
 }
+html #creditosSite #copyRight p a,
+body #creditosSite #copyRight p a {
+  color: #7d459a;
+}
 
-@media (min-width: 320px) {
+@media (min-width: 300px) {
   .fundoVerde .diferenciaisContainer {
     margin: 0;
   }
@@ -189,6 +197,12 @@ body #creditosSite #copyRight p {
   .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard .cardAmarelo {
     margin: 0 0 30px 0;
     padding: 0 10px 15px 10px;
+  }
+}
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+    height: 227px;
   }
 }
 @media (max-width: 990px) {
@@ -216,6 +230,12 @@ body #creditosSite #copyRight p {
 }
 @media (max-width: 1000px) {
   #whats_botao {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .link_whatsapp {
     display: none;
   }
 }
@@ -371,6 +391,10 @@ body .pFooter p {
   line-height: 17px;
   margin-bottom: 0;
 }
+html .pFooter #seloB2Mamy,
+body .pFooter #seloB2Mamy {
+  width: 44%;
+}
 html .linhaEspacada,
 body .linhaEspacada {
   display: flex;
@@ -393,8 +417,12 @@ body #creditosSite #copyRight p {
   margin-bottom: 0;
   font-size: 12px;
 }
+html #creditosSite #copyRight p a,
+body #creditosSite #copyRight p a {
+  color: #7d459a;
+}
 
-@media (min-width: 320px) {
+@media (min-width: 300px) {
   .fundoVerde .diferenciaisContainer {
     margin: 0;
   }
@@ -411,6 +439,12 @@ body #creditosSite #copyRight p {
   .fundoVerde .diferenciaisContainer .diferenciaisRow .diferenciaisCol .diferenciaisCard .cardAmarelo {
     margin: 0 0 30px 0;
     padding: 0 10px 15px 10px;
+  }
+}
+@media (max-width: 508px) {
+  html header .header-home .headerDescricao,
+body header .header-home .headerDescricao {
+    height: 227px;
   }
 }
 @media (max-width: 990px) {
@@ -438,6 +472,12 @@ body #creditosSite #copyRight p {
 }
 @media (max-width: 1000px) {
   #whats_botao {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .link_whatsapp {
     display: none;
   }
 }
@@ -581,6 +621,9 @@ body #nossosClientes #logosClientes img {
 #nossosProdutos .row .containerOverlay {
   margin-bottom: 10px;
 }
+#nossosProdutos .row .containerOverlay .filtroColorido {
+  filter: saturate(180%);
+}
 
 #fazerPedido h2, #fazerPedido p {
   letter-spacing: 2px;
@@ -595,7 +638,6 @@ body #nossosClientes #logosClientes img {
 #fazerPedido .btnFazerPedido:hover {
   background-color: #ededed;
 }
-
 #fazerPedido .btn {
   background-color: #13BBB3;
   color: #2F2D2D;
@@ -713,4 +755,3 @@ body #loja p {
     width: 100%;
   }
 }
-/*# sourceMappingURL=style.css.map */

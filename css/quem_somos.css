@@ -24,7 +24,6 @@ body .carousel-indicators li {
 body #loja h2 {
   padding: 25px 0;
   text-align: center;
-  font-size: 40px;
 }
 
 body #loja p {
@@ -56,6 +55,9 @@ body #loja p {
   padding: 25px;
 }
 
+#flavia .fotosAvo img {
+  border-radius: 10px;
+}
 @media (max-width: 991px) {
   body #headerQuemSomos #banner .carousel-item img {
     height: 65vh;

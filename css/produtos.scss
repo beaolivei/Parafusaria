@@ -7,11 +7,11 @@
     .row {
         .containerOverlay {
             margin-bottom: 10px;
-            // TO-DO COLOCAR UM FILTRO NA IMG
-            // .filtroColorido {
-            //     color: rgba(145, 139, 139, 0.45);
+            .filtroColorido {
+            filter: saturate(180%); 
             }
         }
+    }
 }
 
 #fazerPedido {
@@ -96,4 +96,3 @@ padding: 20px 0;
         }
     }
 }
-
